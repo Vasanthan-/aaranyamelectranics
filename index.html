@@ -24,7 +24,8 @@
                 <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
                 <a href="#showcase" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Showcase</a>
                 <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Services</a>
-                <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Graphics Cards</a>
+                <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Graphics
+                    Cards</a>
                 <a href="#packages" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Packages</a>
                 <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
             </div>
@@ -235,19 +236,74 @@
             <div class="w3-container" id="contact" style="margin-top:75px">
                 <h1 class="w3-xxxlarge w3-text-red"><b>Contact.</b></h1>
                 <hr style="width:50px;border:5px solid red" class="w3-round">
-                <p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love
-                    meeting new people!</p>
+                <p>Submit your specification for price quote</p>
                 <form action="/action_page.php" target="_blank">
                     <div class="w3-section">
-                        <label>Name</label>
-                        <input class="w3-input w3-border" type="text" name="Name" required>
+                        <label>PURPOSE</label>
+                        <input class="w3-input w3-border" type="text" name="Purpose">
                     </div>
                     <div class="w3-section">
-                        <label>Email</label>
+                        <label>Brand</label>
+                        <select class="w3-input w3-border" onchange="selection(this.id, 'cpu')" id="brand" name="brand">
+                            <option value="">Select Brand</option>
+                            <option value="AMD">AMD</option>
+                            <option value="Intel">Intel</option>
+                        </select>
+                    </div>
+                    <div class="w3-section">
+                        <label>PROCESSOR</label>
+                        <select class="w3-input w3-border" id="cpu" name="cpu"></select>
+                    </div>
+                    <div class="w3-section">
+                        <label>MOTHERBOARD</label>
                         <input class="w3-input w3-border" type="text" name="Email" required>
                     </div>
                     <div class="w3-section">
-                        <label>Message</label>
+                        <label>RAM GB Total</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>QTY</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>GRAPHIC CARD</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Primary Storage For OS</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Secondary Storage</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>QTY</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>CASE</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>CPU COOLER</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>PSU</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Monitor</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Keyboard</label>
+                        <input class="w3-input w3-border" type="text" name="Message" required>
+                    </div>
+                    <div class="w3-section">
+                        <label>Mouse</label>
                         <input class="w3-input w3-border" type="text" name="Message" required>
                     </div>
                     <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Send
