@@ -238,25 +238,34 @@
                 <hr style="width:50px;border:5px solid red" class="w3-round">
                 <p>Submit your specification for price quote</p>
                 <form action="/action_page.php" target="_blank">
-                    <div class="w3-section">
+                    <div class="w3-section w3-margin-right w3-margin-left">
                         <label>PURPOSE</label>
                         <input class="w3-input w3-border" type="text" name="Purpose">
                     </div>
-                    <div class="w3-section">
-                        <label>Brand</label>
-                        <select class="w3-input w3-border" onchange="selection(this.id, 'cpu')" id="brand" name="brand">
-                            <option value="">Select Brand</option>
-                            <option value="AMD">AMD</option>
-                            <option value="Intel">Intel</option>
-                        </select>
+                    <div class="w3-row-padding">
+                        <div class="w3-section w3-third w3-mobile">
+                            <label>Brand</label>
+                            <select class="w3-input w3-border" onchange="selection(this.id, 'cpu')" id="brand"
+                                name="brand">
+                                <option value="">Select Brand</option>
+                                <option value="AMD">AMD</option>
+                                <option value="Intel">Intel</option>
+                            </select>
+                        </div>
+                        <div class="w3-section w3-third w3-mobile">
+                            <label>PROCESSOR SERIES</label>
+                            <select class="w3-input w3-border" onchange="selection(this.id, 'motherboard')" id="cpu"
+                                name="cpu"></select>
+                        </div>
+                        <div class="w3-section w3-third w3-mobile">
+                            <label>PROCESSOR MODEL</label>
+                            <select class="w3-input w3-border" onchange="selection(this.id, 'motherboard')" id="cpu"
+                                name="cpu"></select>
+                        </div>
                     </div>
-                    <div class="w3-section">
-                        <label>PROCESSOR</label>
-                        <select class="w3-input w3-border" id="cpu" name="cpu"></select>
-                    </div>
-                    <div class="w3-section">
+                    <div class="w3-section w3-margin-right w3-margin-left">
                         <label>MOTHERBOARD</label>
-                        <input class="w3-input w3-border" type="text" name="Email" required>
+                        <select class="w3-input w3-border" id="motherboard" name="Motherboard" required></select>
                     </div>
                     <div class="w3-section">
                         <label>RAM GB Total</label>
@@ -267,8 +276,22 @@
                         <input class="w3-input w3-border" type="text" name="Message" required>
                     </div>
                     <div class="w3-section">
-                        <label>GRAPHIC CARD</label>
-                        <input class="w3-input w3-border" type="text" name="Message" required>
+                        <label>GRAPHIC CARD CHIPSET</label>
+                        <select class="w3-input w3-border" onchange="selection(this.id, 'series')" id="gpu chipset"
+                            name="Message" required>
+                            <option>Select GPU Chipset</option>
+                            <option value="nvidia">Nvidia</option>
+                            <option>AMD Radeon</option>
+                        </select>
+                    </div>
+                    <div class="w3-section">
+                        <label>GPU SERIES</label>
+                        <select class="w3-input w3-border" onchange="selection(this.id, 'model')" id="series"
+                            name="cpu"></select>
+                    </div>
+                    <div class="w3-section">
+                        <label>GPU Model</label>
+                        <select class="w3-input w3-border" id="model" name="cpu"></select>
                     </div>
                     <div class="w3-section">
                         <label>Primary Storage For OS</label>

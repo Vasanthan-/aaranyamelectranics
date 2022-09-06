@@ -24,9 +24,13 @@ function selection(s1, s2) {
 
     s2.innerHTML = "";
     if (s1.value == "AMD") {
-        var optionArray = ["select cpu|Select CPU", "ryzen 3|Ryzen 3", "ryzen 5|Ryzen 5"];
+        var optionArray = ["select cpu|Select CPU", "am4|Ryzen 3", "am4|Ryzen 5"];
     } else if (s1.value == "Intel") {
         var optionArray = ["select cpu|Select CPU", "core i3|Core i3", "core i5|Core i5"];
+    } else if (s1.value == "am4") {
+        var optionArray = ["select motherboard|Select Motherboard", "am4|AM4", "b550|B550"];
+    } else if (s1.value == "nvidia") {
+        var optionArray = ["select gpu series|Select GPU Series","rtx 3050|RTX 3050","rtx 3060|RTX 3060"];
     }
     for (var option in optionArray) {
         var pair = optionArray[option].split("|");
