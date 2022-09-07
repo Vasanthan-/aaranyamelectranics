@@ -1,0 +1,26 @@
+{
+    "amd": [
+        "select cpu|Select CPU",
+        "ryzen pro|Ryzen™ PRO",
+        "ryzen 5000|Ryzen™ 5000 series",
+        "ryzen 5000g|Ryzen™ 5000 G/GE series",
+        "ryzen 7000|Ryzen™ 7000 series",
+        "ryzen threadripper|Ryzen™ Threadripper™",
+        "ryzen threadripper pro|Ryzen™ Threadripper™ PRO"
+    ],
+    "intel": [
+        "select cpu|Select CPU",
+        "core i3|Core i3",
+        "core i5|Core i5"
+    ],
+    "ryzen5000": [
+        "5000|AMD Ryzen™ 9 5950X",
+        "5000|AMD Ryzen™ 9 5800X3D",
+        "5000|AMD Ryzen™ 9 5900X",
+        "5000|AMD Ryzen™ 9 5800X",
+        "5000|AMD Ryzen™ 9 5600X",
+        "5000|AMD Ryzen™ 9 5700X",
+        "5000|AMD Ryzen™ 9 5600",
+        "5000|AMD Ryzen™ 9 5500"
+    ]
+}
