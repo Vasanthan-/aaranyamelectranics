@@ -1,0 +1,38 @@
+{
+    "lga1700": [
+        "select chipset|Select Chipset",
+        "b660m|B660M",
+        "z690|Z690",
+        "h610m|H610M"
+    ],
+    "b660m": [
+        "select brand|Select Brand",
+        "b660gigabyte|Gigabyte",
+        "b660asus|ASUS"
+    ],
+    "b660gigabyte": [
+        "select motherboard|Select Motherboard",
+        "ddr5|B660M GAMING AC DDR5",
+        "ddr5|B660M GAMING X DDR5",
+        "ddr5|B660 AORUS MASTER DDR5",
+        "ddr5|B660M AORUS PRO DDR5",
+        "ddr5|B660M AORUS PRO AX DDR5",
+        "ddr5|B660 DS3H AC DDR5",
+        "ddr4|B660M POWER DDR4",
+        "ddr4|B660 DS3H AC DDR4",
+        "ddr4|B660 DS3H DDR4",
+        "ddr4|B660M D2H DDR4",
+        "ddr4|B660 DS3H AX DDR4",
+        "ddr4|B660M D3H DDR4",
+        "ddr4|B660M DS3H AX DDR4",
+        "ddr4|B660M DS3H DDR4",
+        "ddr4|B660M GAMING X AX DDR4",
+        "ddr4|B660M GAMING X DDR4",
+        "ddr4|B660M GAMING AC DDR4",
+        "ddr4|B660 GAMING X DDR4",
+        "ddr4|B660M GAMING DDR4",
+        "ddr4|B660M AORUS PRO DDR4",
+        "ddr4|B660M AORUS PRO AX DDR4",
+        "ddr4|B660 AORUS MASTER DDR4"
+    ]
+}

@@ -1,0 +1,243 @@
+{
+    "amd": [
+        "select cpu series|Select CPU Series",
+        "ryzen 5000|Ryzen™ 5000 series",
+        "ryzen 5000 pro|Ryzen™ PRO",
+        "ryzen 5000g|Ryzen™ 5000 G/GE series",
+        "ryzen 7000|Ryzen™ 7000 series",
+        "ryzen threadripper|Ryzen™ Threadripper™",
+        "ryzen threadripper pro|Ryzen™ Threadripper™ PRO"
+    ],
+    "intel": [
+        "select cpu series|Select CPU Series",
+        "core x|Core™ X-series",
+        "core i9 12th|Core™ i9 12th Generation",
+        "core i9 11th|Core™ i9 11th Gen",
+        "core i9 10th|Core™ i9 10th Gen",
+        "core i9 9th|Core™ i9 9th Gen",
+        "core i7 12th|Core™ i7 12th Gen",
+        "core i7 11th|Core™ i7 11th Gen",
+        "core i7 10th|Core™ i7 10th Gen",
+        "core i7 9th|Core™ i7 9th Gen",
+        "core i7 8th|Core™ i7 8th Gen",
+        "core i7 7th|Core™ i7 7th Gen",
+        "core i7 6th|Core™ i7 6th Gen",
+        "core i5 12th|Core™ i5 12th Gen",
+        "core i5 11th|Core™ i5 11th Gen",
+        "core i5 10th|Core™ i5 10th Gen",
+        "core i5 9th|Core™ i5 9th Gen",
+        "core i5 8th|Core™ i5 8th Gen",
+        "core i5 7th|Core™ i5 7th Gen",
+        "core i5 6th|Core™ i5 6th Gen",
+        "core i3 12th|Core™ i3 12th Gen",
+        "core i3 10th|Core™ i3 10th Gen",
+        "core i3 9th|Core™ i3 9th Gen",
+        "core i3 8th|Core™ i3 8th Gen",
+        "core i3 6th|Core™ i3 6th Gen"
+    ],
+    "ryzen5000": [
+        "select cpu|Select CPU",
+        "5000|AMD Ryzen™ 9 5950X",
+        "5000|AMD Ryzen™ 9 5800X3D",
+        "5000|AMD Ryzen™ 9 5900X",
+        "5000|AMD Ryzen™ 9 5800X",
+        "5000|AMD Ryzen™ 7 5700X",
+        "5000|AMD Ryzen™ 5 5600X",
+        "5000|AMD Ryzen™ 5 5600",
+        "5000|AMD Ryzen™ 5 5500"
+    ],
+    "ryzen5000pro": [
+        "select cpu|Select CPU",
+        "5000|AMD Ryzen™ 5 PRO 5650G",
+        "5000|AMD Ryzen™ 5 PRO 5650GE",
+        "5000|AMD Ryzen™ 7 PRO 5750G",
+        "5000|AMD Ryzen™ 7 PRO 5750GE",
+        "5000|AMD Ryzen™ 3 PRO 5350G",
+        "5000|AMD Ryzen™ 3 PRO 5350GE"
+    ],
+    "ryzen5000g": [
+        "select cpu|Select CPU",
+        "5000|AMD Ryzen™ 7 5700G",
+        "5000|AMD Ryzen™ 7 5700GE",
+        "5000|AMD Ryzen™ 5 5600G",
+        "5000|AMD Ryzen™ 5 5600GE",
+        "5000|AMD Ryzen™ 9 5700G",
+        "5000|AMD Ryzen™ 9 5600G"
+    ],
+    "ryzen7000": [
+        "select cpu|Select CPU",
+        "7000|AMD Ryzen™ 9 7950X",
+        "7000|AMD Ryzen™ 9 7900X",
+        "7000|AMD Ryzen™ 7 7700X",
+        "7000|AMD Ryzen™ 5 7600X"
+    ],
+    "ryzenthreadripper": [
+        "select cpu|Select CPU",
+        "threadripper|AMD Ryzen™ Threadripper™ 3990X",
+        "threadripper|AMD Ryzen™ Threadripper™ 3970X",
+        "threadripper|AMD Ryzen™ Threadripper™ 3960X"
+    ],
+    "ryzenthreadripperpro": [
+        "select cpu|Select CPU",
+        "threadripper|AMD Ryzen™ Threadripper™ PRO 5995WX",
+        "threadripper|AMD Ryzen™ Threadripper™ PRO 5975WX",
+        "threadripper|AMD Ryzen™ Threadripper™ PRO 5965WX",
+        "threadripper|AMD Ryzen™ Threadripper™ PRO 5955WX",
+        "threadripper|AMD Ryzen™ Threadripper™ PRO 5945WX"
+    ],
+    "corex": [
+        "select cpu|Select CPU",
+        "lga2066|Intel® Core™ i9-10900X",
+        "lga2066|Intel® Core™ i9-10940X",
+        "lga2066|Intel® Core™ i9-10920X",
+        "lga2066|Intel® Core™ i9-10980XE"
+    ],
+    "corei912th": [
+        "select cpu|Select CPU",
+        "lga1700|Intel® Core™ i9-12900",
+        "lga1700|Intel® Core™ i9-12900F",
+        "lga1700|Intel® Core™ i9-12900K",
+        "lga1700|Intel® Core™ i9-12900KF"
+    ],
+    "corei911th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i9-11900",
+        "lga1200|Intel® Core™ i9-11900K",
+        "lga1200|Intel® Core™ i9-11900KF",
+        "lga1200|Intel® Core™ i9-11900F"
+    ],
+    "corei910th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i9-10850K",
+        "lga1200|Intel® Core™ i9-10900",
+        "lga1200|Intel® Core™ i9-10900K",
+        "lga1200|Intel® Core™ i9-10900KF",
+        "lga1200|Intel® Core™ i9-10900F"
+    ],
+    "corei99th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i9-9900",
+        "lga1151|Intel® Core™ i9-9900KF",
+        "lga1151|Intel® Core™ i9-9900K"
+    ],
+    "corei712th": [
+        "select cpu|Select CPU",
+        "lga1700|Intel® Core™ i7-12700F",
+        "lga1700|Intel® Core™ i7-12700",
+        "lga1700|Intel® Core™ i7-12700K",
+        "lga1700|Intel® Core™ i7-12700KF"
+    ],
+    "corei711th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i7-11700F",
+        "lga1200|Intel® Core™ i7-11700",
+        "lga1200|Intel® Core™ i7-11700KF",
+        "lga1200|Intel® Core™ i7-11700K"
+    ],
+    "corei710th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i7-10700K",
+        "lga1200|Intel® Core™ i7-10700KF",
+        "lga1200|Intel® Core™ i7-10700F",
+        "lga1200|Intel® Core™ i7-10700"
+    ],
+    "corei79th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i7-9700",
+        "lga1151|Intel® Core™ i7-9700F",
+        "lga1151|Intel® Core™ i7-9700KF",
+        "lga1151|Intel® Core™ i7-9700K"
+    ],
+    "corei78th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i7-8700"
+    ],
+    "corei77th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i7-7700"
+    ],
+    "corei76th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i7-6700"
+    ],
+    "corei512th": [
+        "select cpu|Select CPU",
+        "lga1700|Intel® Core™ i5-12400F",
+        "lga1700|Intel® Core™ i5-12400",
+        "lga1700|Intel® Core™ i5-12600",
+        "lga1700|Intel® Core™ i5-12500",
+        "lga1700|Intel® Core™ i5-12600KF",
+        "lga1700|Intel® Core™ i5-12600K"
+    ],
+    "corei511th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i5-11500",
+        "lga1200|Intel® Core™ i5-11600KF",
+        "lga1200|Intel® Core™ i5-11600K",
+        "lga1200|Intel® Core™ i5-11600",
+        "lga1200|Intel® Core™ i5-11400F",
+        "lga1200|Intel® Core™ i5-11400"
+    ],
+    "corei510th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i5-10400",
+        "lga1200|Intel® Core™ i5-10600KF",
+        "lga1200|Intel® Core™ i5-10600",
+        "lga1200|Intel® Core™ i5-10600K",
+        "lga1200|Intel® Core™ i5-10400F",
+        "lga1200|Intel® Core™ i5-10500"
+    ],
+    "corei59th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i5-9500",
+        "lga1151|Intel® Core™ i5-9500F",
+        "lga1151|Intel® Core™ i5-9600",
+        "lga1151|Intel® Core™ i5-9400",
+        "lga1151|Intel® Core™ i5-9600KF",
+        "lga1151|Intel® Core™ i5-9600K"
+    ],
+    "corei58th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i5-8500"
+    ],
+    "corei57th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i5-7500"
+    ],
+    "corei56th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i5-6500"
+    ],
+    "corei312th": [
+        "select cpu|Select CPU",
+        "lga1700|Intel® Core™ i3-12100",
+        "lga1700|Intel® Core™ i3-12100F"
+    ],
+    "corei310th": [
+        "select cpu|Select CPU",
+        "lga1200|Intel® Core™ i3-10305",
+        "lga1200|Intel® Core™ i3-10105F",
+        "lga1200|Intel® Core™ i3-10105",
+        "lga1200|Intel® Core™ i3-10100F",
+        "lga1200|Intel® Core™ i3-10100",
+        "lga1200|Intel® Core™ i3-10300",
+        "lga1200|Intel® Core™ i3-10320"
+    ],
+    "corei39th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i3-9350K",
+        "lga1151|Intel® Core™ i3-9320",
+        "lga1151|Intel® Core™ i3-9100F",
+        "lga1151|Intel® Core™ i3-9300",
+        "lga1151|Intel® Core™ i3-9100",
+        "lga1151|Intel® Core™ i3-9350KF"
+    ],
+    "corei38th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i3-8100"
+    ],
+    "corei36th": [
+        "select cpu|Select CPU",
+        "lga1151|Intel® Core™ i3-6100"
+    ]
+}

@@ -1,0 +1,173 @@
+{
+    "nvidia": [
+        "select gpu series|Select GPU Series",
+        "rtx3090ti|RTX 3090 Ti",
+        "rtx3090|RTX 3090",
+        "rtx3080ti|RTX 3080 Ti",
+        "rtx3080|RTX 3080",
+        "rtx3070ti|RTX 3070 Ti",
+        "rtx3070|RTX 3070",
+        "rtx3060ti|RTX 3060 Ti",
+        "rtx3060|RTX 3060",
+        "rtx3050|RTX 3050",
+        "rtx2080ti|RTX 2080 Ti",
+        "rtx2080s|RTX 2080 Super",
+        "rtx2080|RTX 2080",
+        "rtx2070|RTX 2070",
+        "rtx2060|RTX 2060",
+        "gtx1660sti|GTX 1660 / 1660 Super / 1660Ti",
+        "gtx1650|GTX 1650",
+        "gtx1050ti|GTX 1050 / 1050 Ti"
+    ],
+    "amdradeon": [
+        "select gpu series|Select GPU Series",
+        "rx6900|RX 6900",
+        "rx6950|RX 6950",
+        "rx6800|RX 6800",
+        "rx6700|RX 6700",
+        "rx6750|RX 6750",
+        "rx6600|RX 6600",
+        "rx6650|RX 6650",
+        "rx6600|RX 6500",
+        "rx5600|RX 5600",
+        "rx580|RX 580",
+        "rx570|RX 570",
+        "rx550|RX 550"
+    ],
+    "gtx1660sti": [
+        "gtx1660stiasus|ASUS",
+        "gtx1660stimsi|MSI"
+    ],
+    "gtx1660asus": [
+        "gpu|ASUS PH-GTX1660TI-6G",
+        "gpu|ASUS PH-GTX1660TI-O6G",
+        "gpu|ASUS DUAL-GTX1660S-6G-MINI",
+        "gpu|ASUS DUAL-GTX1660S-O6G-MINI",
+        "gpu|ASUS TUF3-GTX1660TI-O6G-GAMING"
+    ],
+    "gtx1660msi": [
+        "gpu|MSI GeForce GTX 1660 ARMOR 6G",
+        "gpu|MSI GeForce GTX 1660 ARMOR 6G OC",
+        "gpu|MSI GeForce GTX 1660 Ti GAMING X 6G",
+        "gpu|MSI GeForce GTX 1660 Ti GAMING 6G",
+        "gpu|MSI GeForce GTX 1660 SUPER™ VENTUS XS",
+        "gpu|MSI GeForce GTX 1660 SUPER™ GAMING"
+    ],
+    "gtx1650": [
+        "gtx1650asus|ASUS",
+        "gtx1650msi|MSI"
+    ],
+    "gtx1650asus": [
+        "gpu|PH-GTX1650-O4G-V2",
+        "gpu|DUAL-GTX1650-O4GD6-MINI",
+        "gpu|TUF-GTX1650-O4GD6-P-GAMING",
+        "gpu|TUF-GTX1650-O4GD6-GAMING"
+    ],
+    "gtx1650msi": [
+        "gpu|GeForce GTX 1650 D6 GAMING X PLUS",
+        "gpu|GeForce GTX 1650 D6 GAMING X",
+        "gpu|GeForce GTX 1650 D6 GAMING PLUS",
+        "gpu|GeForce GTX 1650 D6 GAMING",
+        "gpu|GeForce GTX 1650 VENTUS XS 4G",
+        "gpu|GeForce GTX 1650 4GT LP",
+        "gpu|GeForce GTX 1650 SUPER™ GAMING",
+        "gpu|GeForce GTX 1650 GAMING 4G",
+        "gpu|GeForce GTX 1650 D6 AERO ITX"
+    ],
+    "gtx1050ti": [
+        "gtx1050tiasus|ASUS",
+        "gtx1050timsi|MSI"
+    ],
+    "gtx1050tiasus": [
+        "select gpu|Select GPU",
+        "gpu|CERBERUS-GTX1050TI-O4G",
+        "gpu|PH-GTX 1050 Ti-4G",
+        "gpu|ROG Strix GeForce RTX™ 3050 8GB",
+        "gpu|ROG Strix GeForce RTX™ 3050 OC Edition 8GB"
+    ],
+    "gtx1050timsi": [
+        "select gpu|Select GPU",
+        "gpu|GeForce GTX 1050 AERO ITX 3G",
+        "gpu|GeForce GTX 1050 3GT LP",
+        "gpu|GeForce GTX 1050 AERO ITX 3G OC",
+        "gpu|GeForce GTX 1050 3GT OC"
+    ],
+    "rtx3050": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3090": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3090ti": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3080": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3080ti": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3070": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3070ti": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3060": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx3060ti": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx2080": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx2080s": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx2080ti": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx2070": [
+        "select gpu brand|Select Brand"
+    ],
+    "rtx2060": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6900": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6950": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6800": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6700": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6750": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6600": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6650": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx6500": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx5600": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx580": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx570": [
+        "select gpu brand|Select Brand"
+    ],
+    "rx550": [
+        "select gpu brand|Select Brand"
+    ]
+}

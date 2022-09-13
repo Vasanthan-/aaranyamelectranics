@@ -1,0 +1,81 @@
+{
+    "ddr4": [
+        "ddr4gskill|G.Skill",
+        "ddr4kingston|Kingston",
+        "ddr4corsair|Corsair",
+        "ddr4crucial|Crucial"
+    ],
+    "ddr5": [
+        "ddr5gskill|G.Skill",
+        "ddr5kingston|Kingston",
+        "ddr5corsair|Corsair"
+    ],
+    "ddr4gskill": [
+        "8gbddr4gskill|8 GB",
+        "16gbddr4gskill|16 GB",
+        "32gbddr4gskill|32 GB"
+    ],
+    "ddr4kingston": [
+        "8gbddr4kingston|8 GB",
+        "16gbddr4kingston|16 GB",
+        "32gbddr4kingston|32 GB"
+    ],
+    "ddr4corsair": [
+        "8gbddr4corsair|8 GB",
+        "16gbddr4corsair|16 GB",
+        "32gbddr4corsair|32 GB"
+    ],
+    "ddr4crucial": [
+        "8gbddr4crucial|8 GB",
+        "16gbddr4crucial|16 GB",
+        "32gbddr4crucial|32 GB"
+    ],
+    "ddr5gskill": [
+        "16gbddr5gskill|16 GB",
+        "32gbddr5gskill|32 GB"
+    ],
+    "ddr5kingston": [
+        "8gbddr5kingston|8 GB",
+        "16gbddr5kingston|16 GB",
+        "32gbddr5kingston|32 GB"
+    ],
+    "ddr5corsair": [
+        "8gbddr5corsair|8 GB",
+        "16gbddr5corsair|16 GB",
+        "32gbddr5corsair|32 GB"
+    ],
+    "8gbddr4gskill|8 GB": [],
+    "16gbddr4gskill|16 GB": [],
+    "32gbddr4gskill|32 GB": [],
+    "16gbddr5gskill|16 GB": [
+        "ripjaws16|Ripjaws S5 DDR5-5200 16 GB CL 28",
+        "trident16|Trident Z5 RGB DDR5-5600 16 GB CL 40",
+        "ripjaws16|Ripjaws S5 DDR5-6000 16 GB CL 40",
+        "trident16|Trident Z5 RGB DDR5-6000 16 GB CL 32",
+        "trident16|Trident Z DDR5-6400 16 GB CL 32",
+        "trident16|Trident Z5 RGB DDR5-6400 16 GB CL 32",
+        "trident16|Trident Z5 RGB DDR5-6600 16 GB CL 32"
+    ],
+    "32gbddr5gskill|32 GB": [
+        "ripjaws32|Ripjaws S5 DDR5-5200 32 GB CL 28",
+        "ripjaws32|Ripjaws S5 DDR5-5600 32 GB CL 28",
+        "trident32|Trident Z5 RGB DDR5-6000 32 GB CL 32"
+    ],
+    "8gbddr5kingston": [
+        "fury8|Kingston FURY Beast DDR5-5200 8 GB CL 40",
+        "fury8|Kingston FURY Beast RGB DDR5-5200 8 GB CL 40",
+        "fury8|Kingston FURY Beast DDR5-5600 8 GB CL 40",
+        "fury8|Kingston FURY Beast RGB DDR5-5600 8 GB CL 40",
+        "fury8|Kingston FURY Beast DDR5-6000 8 GB CL 40",
+        "fury8|Kingston FURY Beast RGB DDR5-6000 8 GB CL 40"
+    ],
+    "16gbddr5kingston": [
+        "fury16|Kingston FURY Beast DDR5-5200 16 GB CL 40",
+        "fury16|Kingston FURY Beast RGB DDR5-5200 16 GB CL 40"
+    ],
+    "32gbddr5kingston": [
+        "fury32|Kingston FURY Beast RGB DDR5-5200 32 GB CL 40",
+        "fury32|Kingston FURY Beast DDR5-5600 32 GB CL 40",
+        "fury32|Kingston FURY Beast RGB DDR5-5600 32 GB CL 40"
+    ]
+}

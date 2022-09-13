@@ -18,13 +18,24 @@ function onClick(element) {
 }
 
 
+//Form selection
+function openForm(formName) {
+    var i;
+    var x = document.getElementsByClassName("pcform");
+    for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+    }
+    document.getElementById(formName).style.display = "block";
+}
+
+
 
 // Interactive Form
 async function cpuSelection(s1, s2) {
     var s1 = document.getElementById(s1);
     var s2 = document.getElementById(s2);
 
-    let request = new Request("./pcComponents.json");
+    let request = new Request("./json/pcComponents.json");
     const responce = await fetch(request);
     const products = await responce.json();
 
@@ -141,13 +152,68 @@ async function cpuSelection(s1, s2) {
     }
 }
 
-async function motherboardSelection(s1, s2, s3, s4) {
+async function motherboardSelection(s1, s2) {
     var s1 = document.getElementById(s1);
     var s2 = document.getElementById(s2);
     var s3 = document.getElementById(s3);
     var s4 = document.getElementById(s4);
 
-    let request = new Request("./pcComponents.json");
+    let request = new Request("./json/motherboardComponents.json");
+    const responce = await fetch(request);
+    const products = await responce.json();
+
+    s2.innerHTML = "";
+    switch (s1.value) {
+        case "5000":
+            var optionArray = ["select motherboard|Select Motherboard", "ram2|b550", "ram4|Z570"];
+            break;
+        default:
+            console.log("error " + s1.value);
+    }
+    for (var option in optionArray) {
+        var pair = optionArray[option].split("|");
+        var newOption = document.createElement("option");
+        newOption.value = pair[0];
+        newOption.innerHTML = pair[1];
+        s2.options.add(newOption);
+    }
+}
+
+function socketcoolerSelection (s1, s2, s3) {
+    motherboardSelection(s1, s2);
+    coolerSelection(s1, s3);
+}
+
+async function ramSelection(s1, s2) {
+    var s1 = document.getElementById(s1);
+    var s2 = document.getElementById(s2);
+
+    let request = new Request("./json/ramComponents.json");
+    const responce = await fetch(request);
+    const products = await responce.json();
+
+    s2.innerHTML = "";
+    switch (s1.value) {
+        case "5000":
+            var optionArray = ["select motherboard|Select Motherboard", "ram2|b550", "ram4|Z570"];
+            break;
+        default:
+            console.log("error " + s1.value);
+    }
+    for (var option in optionArray) {
+        var pair = optionArray[option].split("|");
+        var newOption = document.createElement("option");
+        newOption.value = pair[0];
+        newOption.innerHTML = pair[1];
+        s2.options.add(newOption);
+    }
+}
+
+async function coolerSelection(s1, s2) {
+    var s1 = document.getElementById(s1);
+    var s2 = document.getElementById(s2);
+
+    let request = new Request("./json/coolerComponents.json");
     const responce = await fetch(request);
     const products = await responce.json();
 
@@ -172,14 +238,17 @@ async function gpuSelection(s1, s2) {
     var s1 = document.getElementById(s1);
     var s2 = document.getElementById(s2);
 
-    let request = new Request("./pcComponents.json");
+    let request = new Request("./json/gpuComponents.json");
     const responce = await fetch(request);
     const products = await responce.json();
 
     s2.innerHTML = "";
     switch (s1.value) {
         case "nvidia":
-            var optionArray = ["select gpu series|Select GPU Series", "rtx 3050|RTX 3050", "rtx 3060|RTX 3060"];
+            var optionArray = products.nvidia;
+            break;
+        case "amdradeon":
+            var optionArray = products.amdradeon;
             break;
         default:
             console.log("error " + s1.value);
