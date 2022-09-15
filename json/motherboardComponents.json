@@ -1,11 +1,11 @@
 {
     "lga1700": [
         "select chipset|Select Chipset",
-        "b660m|B660M",
+        "b660|B660",
         "z690|Z690",
-        "h610m|H610M"
+        "h610|H610"
     ],
-    "b660m": [
+    "b660": [
         "select brand|Select Brand",
         "b660gigabyte|Gigabyte",
         "b660asus|ASUS"
@@ -34,5 +34,72 @@
         "ddr4|B660M AORUS PRO DDR4",
         "ddr4|B660M AORUS PRO AX DDR4",
         "ddr4|B660 AORUS MASTER DDR4"
-    ]
+    ],
+    "b660asus": [
+        "ddr5|ROG STRIX B660-G GAMING WIFI DDR5",
+        "ddr5|ROG STRIX B660-F GAMING WIFI DDR5",
+        "ddr5|ROG STRIX B660-I GAMING WIFI DDR5",
+        "ddr4|ROG STRIX B660-G DDR4",
+        "ddr4|ROG STRIX B660-A GAMING WIFI  DDR4",
+        "ddr4|ROG STRIX B660-I GAMING WIFI  DDR4",
+        "ddr4|TUF GAMING B660-PLUS WIFI D4  DDR4"
+    ],
+    "z690": [
+        "select brand|Select Brand",
+        "z690gigabyte|Gigabyte",
+        "z690asus|ASUS"
+    ],
+    "z690gigabyte": [
+        "Z690 GAMING X DDR5",
+        "Z690I AORUS ULTRA DDR5",
+        "Z690 AORUS TACHYON DDR5",
+        "Z690 AORUS ELITE DDR5",
+        "Z690 AORUS PRO DDR5",
+        "Z690 AORUS MASTER DDR5",
+        "Z690 AORUS XTREME DDR5",
+        "Z690 UD DDR5",
+        "Z690 UD AC DDR5",
+        "Z690 UD AX DDR5",
+        "Z690 AORUS XTREME WATERFORCE DDR5",
+        "Z690 AORUS ELITE AX DDR5",
+        "Z690I AORUS ULTRA LITE DDR5",
+        "Z690I AORUS ULTRA PLUS DDR5",
+        "Z690 UD DDR4",
+        "Z690 UD AX DDR4",
+        "Z690M DS3H DDR4",
+        "Z690 AORUS ELITE AX DDR4 V2",
+        "Z690 AORUS ELITE DDR4 V2",
+        "Z690I AORUS ULTRA LITE DDR4",
+        "Z690I AORUS ULTRA PLUS DDR4",
+        "Z690 AORUS PRO DDR4",
+        "Z690 AORUS ELITE AX DDR4",
+        "Z690 AORUS ELITE DDR4",
+        "Z690I AORUS ULTRA DDR4",
+        "Z690M AORUS ELITE DDR4",
+        "Z690M AORUS ELITE AX DDR4"
+    ],
+    "z690asus": [
+        "ROG MAXIMUS Z690 HERO EVA EDITION DDR5",
+        "ROG STRIX Z690-A GAMING WIFI DDR5",
+        "ROG MAXIMUS Z690 HERO DDR4",
+        "ROG STRIX Z690-A GAMING WIFI DDR4",
+        "ROG MAXIMUS Z690 FORMULA DDR4",
+        "ROG MAXIMUS Z690 APEX DDR4",
+        "ROG STRIX Z690-E GAMING WIFI DDR4",
+        "ROG STRIX Z690-I GAMING WIFI DDR4",
+        "ROG STRIX Z690-G GAMING WIFI DDR4",
+        "ROG STRIX Z690-A GAMING WIFI D4 DDR4",
+        "ROG STRIX Z690-F GAMING WIFI DDR4",
+        "ROG MAXIMUS Z690 EXTREME DDR4",
+        "ROG MAXIMUS Z690 EXTREME GLACIAL DDR4",
+        "ROG MAXIMUS Z690 HERO DDR4",
+        "TUF GAMING Z690-PLUS WIFI DDR4"
+    ],
+    "h610": [
+        "select brand|Select Brand",
+        "h610gigabyte|Gigabyte",
+        "h610asus|ASUS"
+    ],
+    "h610gigabyte": [],
+    "h610asus": []
 }

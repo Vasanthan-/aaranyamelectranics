@@ -35,7 +35,7 @@
         "core i3 8th|Core™ i3 8th Gen",
         "core i3 6th|Core™ i3 6th Gen"
     ],
-    "ryzen5000": [
+    "ryzen 5000": [
         "select cpu|Select CPU",
         "5000|AMD Ryzen™ 9 5950X",
         "5000|AMD Ryzen™ 9 5800X3D",
@@ -46,7 +46,7 @@
         "5000|AMD Ryzen™ 5 5600",
         "5000|AMD Ryzen™ 5 5500"
     ],
-    "ryzen5000pro": [
+    "ryzen 5000 pro": [
         "select cpu|Select CPU",
         "5000|AMD Ryzen™ 5 PRO 5650G",
         "5000|AMD Ryzen™ 5 PRO 5650GE",
@@ -55,7 +55,7 @@
         "5000|AMD Ryzen™ 3 PRO 5350G",
         "5000|AMD Ryzen™ 3 PRO 5350GE"
     ],
-    "ryzen5000g": [
+    "ryzen 5000g": [
         "select cpu|Select CPU",
         "5000|AMD Ryzen™ 7 5700G",
         "5000|AMD Ryzen™ 7 5700GE",
@@ -64,20 +64,20 @@
         "5000|AMD Ryzen™ 9 5700G",
         "5000|AMD Ryzen™ 9 5600G"
     ],
-    "ryzen7000": [
+    "ryzen 7000": [
         "select cpu|Select CPU",
         "7000|AMD Ryzen™ 9 7950X",
         "7000|AMD Ryzen™ 9 7900X",
         "7000|AMD Ryzen™ 7 7700X",
         "7000|AMD Ryzen™ 5 7600X"
     ],
-    "ryzenthreadripper": [
+    "ryzen threadripper": [
         "select cpu|Select CPU",
         "threadripper|AMD Ryzen™ Threadripper™ 3990X",
         "threadripper|AMD Ryzen™ Threadripper™ 3970X",
         "threadripper|AMD Ryzen™ Threadripper™ 3960X"
     ],
-    "ryzenthreadripperpro": [
+    "ryzen threadripper pro": [
         "select cpu|Select CPU",
         "threadripper|AMD Ryzen™ Threadripper™ PRO 5995WX",
         "threadripper|AMD Ryzen™ Threadripper™ PRO 5975WX",
@@ -85,28 +85,28 @@
         "threadripper|AMD Ryzen™ Threadripper™ PRO 5955WX",
         "threadripper|AMD Ryzen™ Threadripper™ PRO 5945WX"
     ],
-    "corex": [
+    "core x": [
         "select cpu|Select CPU",
         "lga2066|Intel® Core™ i9-10900X",
         "lga2066|Intel® Core™ i9-10940X",
         "lga2066|Intel® Core™ i9-10920X",
         "lga2066|Intel® Core™ i9-10980XE"
     ],
-    "corei912th": [
+    "core i9 12th": [
         "select cpu|Select CPU",
         "lga1700|Intel® Core™ i9-12900",
         "lga1700|Intel® Core™ i9-12900F",
         "lga1700|Intel® Core™ i9-12900K",
         "lga1700|Intel® Core™ i9-12900KF"
     ],
-    "corei911th": [
+    "core i9 11th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i9-11900",
         "lga1200|Intel® Core™ i9-11900K",
         "lga1200|Intel® Core™ i9-11900KF",
         "lga1200|Intel® Core™ i9-11900F"
     ],
-    "corei910th": [
+    "core i9 10th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i9-10850K",
         "lga1200|Intel® Core™ i9-10900",
@@ -114,41 +114,41 @@
         "lga1200|Intel® Core™ i9-10900KF",
         "lga1200|Intel® Core™ i9-10900F"
     ],
-    "corei99th": [
+    "core i9 9th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i9-9900",
         "lga1151|Intel® Core™ i9-9900KF",
         "lga1151|Intel® Core™ i9-9900K"
     ],
-    "corei712th": [
+    "core i7 12th": [
         "select cpu|Select CPU",
         "lga1700|Intel® Core™ i7-12700F",
         "lga1700|Intel® Core™ i7-12700",
         "lga1700|Intel® Core™ i7-12700K",
         "lga1700|Intel® Core™ i7-12700KF"
     ],
-    "corei711th": [
+    "core i7 11th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i7-11700F",
         "lga1200|Intel® Core™ i7-11700",
         "lga1200|Intel® Core™ i7-11700KF",
         "lga1200|Intel® Core™ i7-11700K"
     ],
-    "corei710th": [
+    "core i7 10th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i7-10700K",
         "lga1200|Intel® Core™ i7-10700KF",
         "lga1200|Intel® Core™ i7-10700F",
         "lga1200|Intel® Core™ i7-10700"
     ],
-    "corei79th": [
+    "core i7 9th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i7-9700",
         "lga1151|Intel® Core™ i7-9700F",
         "lga1151|Intel® Core™ i7-9700KF",
         "lga1151|Intel® Core™ i7-9700K"
     ],
-    "corei78th": [
+    "core i7 8th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i7-8700"
     ],
@@ -156,11 +156,11 @@
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i7-7700"
     ],
-    "corei76th": [
+    "core i7 6th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i7-6700"
     ],
-    "corei512th": [
+    "core i5 12th": [
         "select cpu|Select CPU",
         "lga1700|Intel® Core™ i5-12400F",
         "lga1700|Intel® Core™ i5-12400",
@@ -169,7 +169,7 @@
         "lga1700|Intel® Core™ i5-12600KF",
         "lga1700|Intel® Core™ i5-12600K"
     ],
-    "corei511th": [
+    "core i5 11th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i5-11500",
         "lga1200|Intel® Core™ i5-11600KF",
@@ -178,7 +178,7 @@
         "lga1200|Intel® Core™ i5-11400F",
         "lga1200|Intel® Core™ i5-11400"
     ],
-    "corei510th": [
+    "core i5 10th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i5-10400",
         "lga1200|Intel® Core™ i5-10600KF",
@@ -187,7 +187,7 @@
         "lga1200|Intel® Core™ i5-10400F",
         "lga1200|Intel® Core™ i5-10500"
     ],
-    "corei59th": [
+    "core i5 9th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i5-9500",
         "lga1151|Intel® Core™ i5-9500F",
@@ -196,24 +196,24 @@
         "lga1151|Intel® Core™ i5-9600KF",
         "lga1151|Intel® Core™ i5-9600K"
     ],
-    "corei58th": [
+    "core i5 8th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i5-8500"
     ],
-    "corei57th": [
+    "core i5 7th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i5-7500"
     ],
-    "corei56th": [
+    "core i5 6th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i5-6500"
     ],
-    "corei312th": [
+    "core i3 12th": [
         "select cpu|Select CPU",
         "lga1700|Intel® Core™ i3-12100",
         "lga1700|Intel® Core™ i3-12100F"
     ],
-    "corei310th": [
+    "core i3 10th": [
         "select cpu|Select CPU",
         "lga1200|Intel® Core™ i3-10305",
         "lga1200|Intel® Core™ i3-10105F",
@@ -223,7 +223,7 @@
         "lga1200|Intel® Core™ i3-10300",
         "lga1200|Intel® Core™ i3-10320"
     ],
-    "corei39th": [
+    "core i3 9th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i3-9350K",
         "lga1151|Intel® Core™ i3-9320",
@@ -232,11 +232,11 @@
         "lga1151|Intel® Core™ i3-9100",
         "lga1151|Intel® Core™ i3-9350KF"
     ],
-    "corei38th": [
+    "core i3 8th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i3-8100"
     ],
-    "corei36th": [
+    "core i3 6th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i3-6100"
     ]

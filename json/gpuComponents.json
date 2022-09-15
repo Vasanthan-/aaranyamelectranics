@@ -38,14 +38,14 @@
         "gtx1660stiasus|ASUS",
         "gtx1660stimsi|MSI"
     ],
-    "gtx1660asus": [
+    "gtx1660stiasus": [
         "gpu|ASUS PH-GTX1660TI-6G",
         "gpu|ASUS PH-GTX1660TI-O6G",
         "gpu|ASUS DUAL-GTX1660S-6G-MINI",
         "gpu|ASUS DUAL-GTX1660S-O6G-MINI",
         "gpu|ASUS TUF3-GTX1660TI-O6G-GAMING"
     ],
-    "gtx1660msi": [
+    "gtx1660stimsi": [
         "gpu|MSI GeForce GTX 1660 ARMOR 6G",
         "gpu|MSI GeForce GTX 1660 ARMOR 6G OC",
         "gpu|MSI GeForce GTX 1660 Ti GAMING X 6G",
@@ -93,81 +93,477 @@
         "gpu|GeForce GTX 1050 3GT OC"
     ],
     "rtx3050": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3050asus|ASUS",
+        "rtx3050msi|MSI"
+    ],
+    "rtx3050asus|ASUS": [
+        "gpu|PH-RTX3050-8G"
+    ],
+    "rtx3050msi|MSI": [
+        "gpu|GeForce RTX™ 3050 GAMING X 8G",
+        "gpu|GeForce RTX™ 3050 GAMING 8G",
+        "gpu|GeForce RTX™ 3050 AERO ITX 8G",
+        "gpu|GeForce RTX™ 3050 AERO ITX 8G OC",
+        "gpu|GeForce RTX™ 3050 VENTUS 2X 8G",
+        "gpu|GeForce RTX™ 3050 VENTUS 2X 8G OC"
     ],
     "rtx3090": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3090asus|ASUS",
+        "rtx3090msi|MSI"
+    ],
+    "rtx3090asus": [
+        "gpu|ROG-STRIX-RTX3090-24G-WHITE",
+        "gpu|ROG-STRIX-RTX3090-O24G-WHITE",
+        "gpu|ROG-STRIX-RTX3090-O24G-GAMING",
+        "gpu|ROG-STRIX-RTX3090-24G-GAMING"
+    ],
+    "rtx3090msi": [
+        "gpu|GeForce RTX™ 3090 SUPRIM X 24G",
+        "gpu|GeForce RTX™ 3090 SUPRIM 24G",
+        "gpu|GeForce RTX™ 3090 GAMING X TRIO 24G",
+        "gpu|GeForce RTX™ 3090 GAMING TRIO 24G",
+        "gpu|GeForce RTX™ 3090 VENTUS 3X 24G OC",
+        "gpu|GeForce RTX™ 3090 VENTUS 3X 24G "
     ],
     "rtx3090ti": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3090tiasus|ASUS",
+        "rtx3090timsi|MSI"
+    ],
+    "rtx3090tiasus": [
+        "gpu|TUF-RTX3090TI-O24G-GAMING",
+        "gpu|TUF-RTX3090TI-24G-GAMING",
+        "gpu|ROG Strix LC GeForce RTX 3090 Ti",
+        "gpu|ROG Strix LC GeForce RTX 3090 Ti OC Edition"
+    ],
+    "rtx3090timsi": [
+        "gpu|GeForce RTX™ 3090 Ti SUPRIM X 24G",
+        "gpu|GeForce RTX™ 3090 Ti SUPRIM SE 24G",
+        "gpu|GeForce RTX™ 3090 Ti SUPRIM 24G",
+        "gpu|GeForce RTX™ 3090 Ti GAMING X TRIO 24G",
+        "gpu|GeForce RTX™ 3090 Ti BLACK TRIO 24G",
+        "gpu|GeForce RTX™ 3090 Ti GAMING TRIO 24G"
     ],
     "rtx3080": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3080asus|ASUS",
+        "rtx3080msi|MSI"
+    ],
+    "rtx3080asus": [
+        "gpu|TUF-RTX3080-12G-GAMING",
+        "gpu|TUF-RTX3080-O12G-GAMING",
+        "gpu|TUF-RTX3080-O10G-V2-GAMING",
+        "gpu|TUF-RTX3080-10G-V2-GAMING",
+        "gpu|ROG Strix GeForce RTX™ 3080 12GB",
+        "gpu|ROG Strix GeForce RTX™ 3080 OC Edition 12GB",
+        "gpu|ROG-STRIX-RTX3080-O10G-WHITE-V2",
+        "gpu|ROG-STRIX-RTX3080-10G-WHITE-V2",
+        "gpu|ROG-STRIX-RTX3080-O10G-V2-GAMING",
+        "gpu|ROG-STRIX-RTX3080-10G-V2-GAMING",
+        "gpu|ROG-STRIX-RTX3080-10G-WHITE",
+        "gpu|ROG-STRIX-RTX3080-O10G-WHITE",
+        "gpu|ROG-STRIX-RTX3080-O10G-GAMING",
+        "gpu|ROG-STRIX-RTX3080-10G-GAMING"
+    ],
+    "rtx3080msi": [
+        "gpu|GeForce RTX 3080 SUPRIM 12G LHR",
+        "gpu|GeForce RTX™ 3080 SUPRIM X 12G LHR",
+        "gpu|GeForce RTX™ 3080 SUPRIM SE 12G LHR",
+        "gpu|GeForce RTX™ 3080 GAMING Z TRIO 12G LHR",
+        "gpu|GeForce RTX™ 3080 GAMING TRIO PLUS 12G LHR",
+        "gpu|GeForce RTX™ 3080 GAMING Z TRIO 10G LHR",
+        "gpu|GeForce RTX™ 3080 GAMING TRIO PLUS 10G LHR",
+        "gpu|GeForce RTX 3080 VENTUS 3X PLUS 12G OC LHR",
+        "gpu|GeForce RTX™ 3080 GAMING Z TRIO 10G",
+        "gpu|GeForce RTX™ 3080 SUPRIM 10G",
+        "gpu|GeForce RTX™ 3080 VENTUS 3X 10G LHR",
+        "gpu|GeForce RTX™ 3080 VENTUS 3X 10G OC LHR",
+        "gpu|GeForce RTX™ 3080 SUPRIM 10G LHR",
+        "gpu|GeForce RTX™ 3080 SUPRIM SE 10G LHR",
+        "gpu|GeForce RTX™ 3080 SUPRIM SE 10G",
+        "gpu|GeForce RTX™ 3080 SEA HAWK 10G LHR",
+        "gpu|GeForce RTX™ 3080 SEA HAWK X 10G LHR",
+        "gpu|GeForce RTX™ 3080 GAMING X TRIO 10G",
+        "gpu|GeForce RTX™ 3080 VENTUS 3X PLUS 10G OC LHR"
     ],
     "rtx3080ti": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3080tiasus|ASUS",
+        "rtx3080timsi|MSI"
+    ],
+    "rtx3080tiasus": [
+        "gpu|TUF-RTX3080TI-O12G-GAMING",
+        "gpu|TUF-RTX3080TI-12G-GAMING",
+        "gpu|ROG-STRIX-LC-RTX3080TI-12G-GAMING",
+        "gpu|ROG-STRIX-LC-RTX3080TI-O12G-GAMING"
+    ],
+    "rtx3080timsi": [
+        "gpu|GeForce RTX™ 3080 Ti SUPRIM X 12G",
+        "gpu|GeForce RTX™ 3080 Ti SUPRIM 12G",
+        "gpu|GeForce RTX™ 3080 Ti GAMING X TRIO 12G",
+        "gpu|GeForce RTX™ 3080 Ti GAMING TRIO 12G"
     ],
     "rtx3070": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3070asus|ASUS",
+        "rtx3070msi|MSI"
+    ],
+    "rtx3070asus": [
+        "gpu|TUF-RTX3070-O8G-V2-GAMING",
+        "gpu|TUF-RTX3070-8G-V2-GAMING",
+        "gpu|TUF-RTX3070-8G-GAMING",
+        "gpu|TUF-RTX3070-O8G-GAMING",
+        "gpu|ROG-STRIX-RTX3070-O8G-V2-GAMING",
+        "gpu|gpu|ROG-STRIX-RTX3070-8G-V2-GAMING",
+        "gpu|ROG-STRIX-RTX3070-8G-WHITE",
+        "gpu|ROG-STRIX-RTX3070-O8G-WHITE",
+        "gpu|ROG-STRIX-RTX3070-O8G-GAMING",
+        "gpu|ROG-STRIX-RTX3070-8G-GAMING"
+    ],
+    "rtx3070msi": [
+        "gpu|GeForce RTX™ 3070 GAMING TRIO PLUS 8G LHR",
+        "gpu|GeForce RTX™ 3070 GAMING Z TRIO 8G LHR",
+        "gpu|GeForce RTX™ 3070 VENTUS 2X 8G OC LHR",
+        "gpu|GeForce RTX™ 3070 VENTUS 2X 8G LHR",
+        "gpu|GeForce RTX™ 3070 VENTUS 3X 8G OC LHR",
+        "gpu|GeForce RTX™ 3070 VENTUS 3X 8G LHR",
+        "gpu|GeForce RTX™ 3070 SUPRIM X 8G LHR",
+        "gpu|GeForce RTX™ 3070 SUPRIM 8G LHR",
+        "gpu|GeForce RTX™ 3070 VENTUS 3X PLUS 8G OC LHR"
     ],
     "rtx3070ti": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3070tiasus|ASUS",
+        "rtx3070timsi|MSI"
+    ],
+    "rtx3070tiasus": [
+        "gpu|TUF-RTX3070TI-O8G-GAMING",
+        "gpu|TUF-RTX3070TI-8G-GAMING",
+        "gpu|ROG-STRIX-RTX3070TI-8G-GAMING",
+        "gpu|ROG-STRIX-RTX3070TI-O8G-GAMING"
+    ],
+    "rtx3070timsi": [
+        "gpu|GeForce RTX™ 3070 Ti SUPRIM X 8G",
+        "gpu|GeForce RTX™ 3070 Ti SUPRIM 8G"
     ],
     "rtx3060": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3060asus|ASUS",
+        "rtx3060msi|MSI"
+    ],
+    "rtx3060asus": [
+        "gpu|TUF-RTX3060-O12G-V2-GAMING",
+        "gpu|TUF-RTX3060-O12G-GAMING",
+        "gpu|ROG-STRIX-RTX3060-O12G-GAMING"
+    ],
+    "rtx3060msi": [
+        "gpu|GeForce RTX™ 3060 GAMING Z TRIO 12G",
+        "gpu|GeForce RTX™ 3060 GAMING TRIO PLUS 12G",
+        "gpu|GeForce RTX™ 3060 GAMING X TRIO 12G",
+        "gpu|GeForce RTX™ 3060 GAMING TRIO 12G",
+        "gpu|GeForce RTX™ 3060 VENTUS 2X XS 12G"
     ],
     "rtx3060ti": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx3060tiasus|ASUS",
+        "rtx3060timsi|MSI"
+    ],
+    "rtx3060tiasus": [
+        "gpu|DUAL-RTX3060TI-O8G-MINI-V2",
+        "gpu|TUF-RTX3060TI-O8G-V2-GAMING",
+        "gpu|TUF-RTX3060TI-O8G-GAMING",
+        "gpu|ROG-STRIX-RTX3060TI-O8G-V2-GAMING",
+        "gpu|ROG-STRIX-RTX3060TI-8G-V2-GAMING",
+        "gpu|ROG-STRIX-RTX3060TI-O8G-GAMING"
+    ],
+    "rtx3060timsi": [
+        "gpu|GeForce RTX™ 3060 Ti GAMING 8G LHR",
+        "gpu|GeForce RTX™ 3060 Ti GAMING X TRIO",
+        "gpu|GeForce RTX™ 3060 Ti GAMING TRIO",
+        "gpu|GeForce RTX 3060 Ti GAMING",
+        "gpu|GeForce RTX™ 3060 Ti GAMING Z TRIO 8G LHR",
+        "gpu|GeForce RTX™ 3060 Ti GAMING TRIO PLUS 8G LHR",
+        "gpu|GeForce RTX™ 3060 Ti GAMING X 8G LHR",
+        "gpu|GeForce RTX™ 3060 Ti TWIN FAN 8G LHR",
+        "gpu|GeForce RTX 3060 Ti GAMING X",
+        "gpu|GeForce RTX™ 3060 Ti VENTUS 3X OC",
+        "gpu|GeForce RTX™ 3060 Ti VENTUS 3X 8G LHR",
+        "gpu|GeForce RTX™ 3060 Ti TWIN FAN OC"
     ],
     "rtx2080": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx2080asus|ASUS",
+        "rtx2080msi|MSI"
+    ],
+    "rtx2080asus": [
+        "gpu|ROG-STRIX-RTX2080-O8G-GAMING",
+        "gpu|ROG-STRIX-RTX2080-O8G-GAMING"
+    ],
+    "rtx2080msi": [
+        "gpu|GeForce RTX 2080 GAMING X TRIO",
+        "gpu|GeForce RTX 2080 GAMING TRIO",
+        "gpu|GeForce RTX 2080 VENTUS 8G OC",
+        "gpu|GeForce RTX 2080 VENTUS 8G OC"
     ],
     "rtx2080s": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx2080sasus|ASUS",
+        "rtx2080smsi|MSI"
+    ],
+    "rtx2080sasus": [
+        "gpu|ROG-STRIX-RTX2080S-A8G-GAMING"
+    ],
+    "rtx2080smsi": [
+        "gpu|GeForce RTX 2080 SUPER™ VENTUS XS OC",
+        "gpu|GeForce RTX 2080 SUPER™ VENTUS XS",
+        "gpu|GeForce RTX 2080 SUPER SEA HAWK EK X",
+        "gpu|GeForce RTX 2080 SUPER™ GAMING X TRIO",
+        "gpu|GeForce RTX 2080 SUPER SEA HAWK X",
+        "gpu|GeForce RTX 2080 SUPER™ GAMING TRIO"
     ],
     "rtx2080ti": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx2080tiasus|ASUS",
+        "rtx2080timsi|MSI"
+    ],
+    "rtx2080tiasus": [
+        "gpu|ROG-STRIX-RTX2080TI-O11G-WHITE-GAMING",
+        "gpu|ROG-STRIX-RTX2080TI-O11G-GAMING",
+        "gpu|ROG-STRIX-RTX2080TI-11G-GAMING"
+    ],
+    "rtx2080timsi": [
+        "gpu|GeForce RTX 2080 Ti DUKE 11G OC",
+        "gpu|GeForce RTX 2080 Ti VENTUS 11G OC",
+        "gpu|GeForce RTX 2080 Ti LIGHTNING Z",
+        "gpu|GeForce RTX 2080 Ti LIGHTNING",
+        "gpu|GeForce RTX 2080 Ti LIGHTNING 10th Anniversary Edition",
+        "gpu|GeForce RTX 2080 Ti VENTUS 11G OCV1",
+        "gpu|GeForce RTX 2080 Ti GAMING TRIO",
+        "gpu|GeForce RTX 2080 Ti VENTUS GP",
+        "gpu|GeForce RTX 2080 Ti VENTUS GP OC",
+        "gpu|GeForce RTX 2080 Ti VENTUS 11G",
+        "gpu|GeForce RTX 2080 Ti GAMING Z TRIO",
+        "gpu|GeForce RTX 2080 Ti DUKE 11G"
     ],
     "rtx2070": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx2070asus|ASUS",
+        "rtx2070msi|MSI"
+    ],
+    "rtx2070asus": [
+        "gpu|ROG-STRIX-RTX2070-A8G-GAMING",
+        "gpu|DUAL-RTX2070-O8G-MINI"
+    ],
+    "rtx2070msi": [
+        "gpu|GeForce RTX 2070 DUKE 8G OCV1",
+        "gpu|GeForce RTX 2070 DUKE 8G",
+        "gpu|GeForce RTX 2070 TRI FROZR",
+        "gpu|GeForce RTX 2070 DUKE 8G OC",
+        "gpu|GeForce RTX 2070 SUPER™ ARMOR",
+        "gpu|GeForce RTX 2070 SUPER™ GAMING TRIO",
+        "gpu|GeForce RTX 2070 SUPER™ ARMOR OC",
+        "gpu|GeForce RTX 2070 GAMING Z 8G",
+        "gpu|GeForce RTX 2070 GAMING GP",
+        "gpu|GeForce RTX 2070 SUPER™ GAMING X TRIO",
+        "gpu|GeForce RTX 2070 SUPER™ GAMING",
+        "gpu|GeForce RTX 2070 SUPER™ GAMING X",
+        "gpu|GeForce RTX 2070 GAMING 8G",
+        "gpu|GeForce RTX 2070 GAMING X 8G",
+        "gpu|GeForce RTX 2070 SUPER™ VENTUS GP",
+        "gpu|GeForce RTX 2070 VENTUS 8G OC",
+        "gpu|GeForce RTX 2070 VENTUS 8G",
+        "gpu|GeForce RTX 2070 ARMOR 8G OCV1",
+        "gpu|GeForce RTX 2070 AERO 8G",
+        "gpu|GeForce RTX 2070 ARMOR 8G",
+        "gpu|GeForce RTX 2070 AERO ITX 8G"
     ],
     "rtx2060": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rtx2060asus|ASUS",
+        "rtx2060msi|MSI"
+    ],
+    "rtx2060asus": [
+        "gpu|ROG-STRIX-RTX2060-A6G-GAMING"
+    ],
+    "rtx2060msi": [
+        "gpu|GeForce RTX 2060 GAMING 6G PLUS",
+        "gpu|GeForce RTX 2060 GAMING Z 6G PLUS",
+        "gpu|GeForce RTX 2060 SUPER™ ARMOR",
+        "gpu|GeForce RTX 2060 SUPER™ GAMING",
+        "gpu|GeForce RTX 2060 GAMING 6G",
+        "gpu|GeForce RTX 2060 SUPER™ VENTUS",
+        "gpu|GeForce RTX 2060 SUPER™ VENTUS GP OC",
+        "gpu|GeForce RTX™ 2060 VENTUS 12G OC",
+        "gpu|GeForce RTX™ 2060 VENTUS 12G",
+        "gpu|GeForce RTX™ 2060 VENTUS GP 12G OC",
+        "gpu|GeForce RTX 2060 AERO ITX 6G OC",
+        "gpu|GeForce RTX 2060 AERO ITX 6G",
+        "gpu|GeForce RTX 2060 SUPER™ AERO ITX"
     ],
     "rx6900": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6900asus|ASUS",
+        "rx6900msi|MSI"
+    ],
+    "rx6900asus": [
+        "gpu|TUF-RX6900XT-O16G-GAMING",
+        "gpu|ROG-STRIX-LC-RX6900XT-O16G-GAMING",
+        "gpu|ROG-STRIX-LC-RX6900XT-O16G-GAMING"
+    ],
+    "rx6900msi": [
+        
+        "gpu|Radeon RX 6900 XT GAMING TRIO 16G",
+        "gpu|Radeon RX 6900 XT 16G",
+        "gpu|Radeon RX 6900 XT GAMING X TRIO 16G",
+        "gpu|Radeon RX 6900 XT GAMING Z TRIO 16G",
+        "gpu|Radeon RX 6900 XT GAMING TRIO PLUS 16G"
     ],
     "rx6950": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6950msi|MSI"
+    ],
+    "rx6950msi": [
+        "gpu|Radeon™ RX 6950 XT GAMING X TRIO 16G",
+        "gpu|Radeon™ RX 6950 XT GAMING TRIO 16G"
     ],
     "rx6800": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6800asus|ASUS",
+        "rx6800msi|MSI"
+    ],
+    "rx6800asus": [
+        "gpu|TUF-RX6800XT-O16G-GAMING",
+        "gpu|TUF-RX6800-O16G-GAMING",
+        "gpu|ROG-STRIX-RX6800-O16G-GAMING",
+        "gpu|ROG-STRIX-LC-RX6800XT-O16G-GAMING"
+    ],
+    "rx6800msi": [
+        "gpu|Radeon RX 6800 XT GAMING TRIO PLUS 16G",
+        "gpu|Radeon RX 6800 XT GAMING Z TRIO 16G",
+        "gpu|Radeon RX 6800 XT GAMING X TRIO 16G",
+        "gpu|Radeon RX 6800 XT GAMING TRIO 16G",
+        "gpu|Radeon RX 6800 XT 16G",
+        "gpu|Radeon RX 6800 GAMING TRIO PLUS 16G",
+        "gpu|Radeon RX 6800 GAMING X TRIO 16G",
+        "gpu|Radeon RX 6800 GAMING Z TRIO 16G",
+        "gpu|Radeon RX 6800 GAMING TRIO 16G",
+        "gpu|Radeon RX 6800 16G"
     ],
     "rx6700": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6700msi|MSI"
+    ],
+    "rx6700msi": [
+        
+        "gpu|Radeon™ RX 6700 XT MECH 2X 12G",
+        "gpu|Radeon™ RX 6700 XT MECH 2X 12G OC",
+        "gpu|Radeon™ RX 6700 XT 12G",
+        "gpu|Radeon™ RX 6700 XT GAMING X 12G",
+        "gpu|Radeon™ RX 6700 XT GAMING 12G"
     ],
     "rx6750": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6750msi|MSI"
+    ],
+    "rx6750msi": [
+        "gpu|Radeon™ RX 6750 XT MECH 2X 12G OC",
+        "gpu|Radeon™ RX 6750 XT MECH 2X 12G",
+        "gpu|Radeon™ RX 6750 XT GAMING TRIO 12G",
+        "gpu|Radeon™ RX 6750 XT GAMING X TRIO 12G"
     ],
     "rx6600": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6600asus|ASUS",
+        "rx6600msi|MSI"
+    ],
+    "rx6600asus": [
+        "gpu|DUAL-RX6600-8G",
+        "gpu|DUAL-RX6600XT-O8G"
+    ],
+    "rx6600msi": [
+        "gpu|Radeon™ RX 6650 XT MECH 2X 8G",
+        "gpu|Radeon™ RX 6650 XT MECH 2X 8G OC",
+        "gpu|Radeon™ RX 6600 MECH 2X 8G",
+        "gpu|Radeon™ RX 6600 ARMOR 8G",
+        "gpu|Radeon™ RX 6600 ARMOR 8G V1",
+        "gpu|Radeon™ RX 6600 XT MECH 2X 8G",
+        "gpu|Radeon™ RX 6650 XT GAMING X 8G",
+        "gpu|Radeon™ RX 6650 XT GAMING 8G",
+        "gpu|Radeon™ RX 6600 XT GAMING X 8G",
+        "gpu|Radeon™ RX 6600 XT GAMING 8G"
     ],
     "rx6650": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6650asus|ASUS",
+        "rx6650msi|MSI"
     ],
+    "rx6650asus": [],
+    "rx6650msi": [],
     "rx6500": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx6500asus|ASUS",
+        "rx6500msi|MSI"
+    ],
+    "rx6500asus": [
+        "gpu|TUF-RX6500XT-O4G-GAMING",
+        "gpu|DUAL-RX6500XT-O4G"
+    ],
+    "rx6500msi": [
+        "gpu|Radeon RX 6500 XT MECH 2X 4G OC",
+        "gpu|Radeon RX 6500 XT MECH 2X 4G"
     ],
     "rx5600": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx5600asus|ASUS",
+        "rx5600msi|MSI"
+    ],
+    "rx5600asus": [
+        "gpu|TUF-3-RX5600XT-O6G-EVO-GAMING",
+        "gpu|ROG-STRIX-RX5600XT-O6G-GAMING",
+        "gpu|ROG-STRIX-RX5500XT-O8G-GAMING"
+    ],
+    "rx5600msi": [
+        "gpu|RADEON RX 5600 XT MECH",
+        "gpu|RADEON RX 5600 XT MECH OC",
+        "gpu|Radeon RX 5600 XT GAMING MX",
+        "gpu|Radeon RX 5600 XT GAMING M",
+        "gpu|Radeon RX 5600 XT GAMING",
+        "gpu|Radeon RX 5600 XT GAMING X"
     ],
     "rx580": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx580asus|ASUS",
+        "rx580msi|MSI"
+    ],
+    "rx580asus": [
+        "gpu|DUAL-RX580-O4G"
+    ],
+    "rx580msi": [
+        "gpu|Radeon RX 580 ARMOR MK2 8G OC"
     ],
     "rx570": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx570asus|ASUS",
+        "rx570msi|MSI"
+    ],
+    "rx570asus": [
+        "gpu|ROG-STRIX-RX570-O8G-GAMING",
+        "gpu|ROG-STRIX-RX570-O4G-GAMING"
+    ],
+    "rx570msi": [
+        "gpu|Radeon RX 570 MECH 2 8G OC"
     ],
     "rx550": [
-        "select gpu brand|Select Brand"
+        "select gpu brand|Select Brand",
+        "rx550asus|ASUS",
+        "rx550msi|MSI"
+    ],
+    "rx550asus": [
+        "gpu|PH-550-2G"
+    ],
+    "rx550msi": [
+        "gpu|Radeon 550 AERO ITX 2G OC"
     ]
 }

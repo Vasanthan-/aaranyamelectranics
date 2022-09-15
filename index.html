@@ -289,9 +289,8 @@
                             </div>
                             <div class="w3-section w3-third w3-mobile">
                                 <label>MOTHERBOARD</label>
-                                <select class="w3-input w3-border"
-                                    onchange="ramSelection(this.id, 'rambrand', 'cpuCooler')" id="motherboard"
-                                    name="Motherboard" required></select>
+                                <select class="w3-input w3-border" onchange="ramSelection(this.id, 'rambrand')"
+                                    id="motherboard" name="Motherboard" required></select>
                             </div>
                         </div>
                         <div class="w3-row-padding">
@@ -346,14 +345,14 @@
                             </div>
                             <div class="w3-section w3-half w3-mobile">
                                 <label>GPU Model</label>
-                                <select class="w3-input w3-border" onchange="gpuSelection(this.id, 'model')" id="model"
+                                <select class="w3-input w3-border" id="model"
                                     name="cpu"></select>
                             </div>
                         </div>
                         <div class="w3-section w3-margin-left w3-margin-right">
                             <label>Primary Storage For OS</label>
                             <select class="w3-input w3-border" onchange="gpuSelection(this.id, 'model')" id="model"
-                                    name="cpu"></select>
+                                name="cpu"></select>
                         </div>
                         <div class="w3-row-padding">
                             <div class="w3-section w3-half">
@@ -375,7 +374,7 @@
                         <div class="w3-section w3-margin-left w3-margin-right">
                             <label>CASE</label>
                             <select class="w3-input w3-border" onchange="gpuSelection(this.id, 'model')" id="model"
-                                    name="cpu"></select>
+                                name="cpu"></select>
                         </div>
                         <div class="w3-section w3-margin-left w3-margin-right">
                             <label>CPU COOLER</label>
@@ -384,7 +383,7 @@
                         <div class="w3-section w3-margin-left w3-margin-right">
                             <label>PSU</label>
                             <select class="w3-input w3-border" onchange="gpuSelection(this.id, 'model')" id="model"
-                                    name="cpu"></select>
+                                name="cpu"></select>
                         </div>
                         <button type="submit" class="w3-button w3-block w3-padding-large w3-red w3-margin-bottom">Submit
                             your build</button>
