@@ -126,6 +126,7 @@ async function gpuSelection(s1, s2) {
 
     s2.innerHTML = "";
     var optionArray = products[s1.value];
+    
     for (var option in optionArray) {
         var pair = optionArray[option].split("|");
         var newOption = document.createElement("option");
