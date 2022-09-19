@@ -1,0 +1,196 @@
+{
+    "fulltower": [
+        "select form factor|Select Form Factor",
+        "xlatxft|Upto XL-ATX ",
+        "eatxft|Upto E-ATX",
+        "atxft|Upto ATX"
+    ],
+    "xlatxft": [
+        "select brand|Select Brand",
+        "thermaltakexlatxft|Thermaltake"
+    ],
+    "thermaltakexlatxft": [
+        "select cabinet|Select Cabinet",
+        "cabinet|View 91 Tempered Glass RGB Edition",
+        "cabinet|Core W200"
+    ],
+    "eatxft": [
+        "select brand|Select Brand",
+        "thermaltakeeatxft|Thermaltake",
+        "coolermastereatxft|Cooler Master"
+    ],
+    "thermaltakeeatxft": [
+        "select cabinet|Select Cabinet",
+        "cabinet|AH T600 Snow Full Tower Chassis",
+        "cabinet|Level 20 HT Snow Edition",
+        "cabinet|Level 20 GT ARGB Black Edition",
+        "cabinet|A700 Aluminum Tempered Glass Edition Full Tower Chassis",
+        "cabinet|View 71 Tempered Glass ARGB Edition",
+        "cabinet|Level 20 GT ARGB",
+        "cabinet|View 71 Tempered Glass RGB Plus Edition",
+        "cabinet|Level 20",
+        "cabinet|Level 20 GT RGB Plus",
+        "cabinet|Core V71 Tempered Glass Edition",
+        "cabinet|The Tower 900 Snow Edition",
+        "cabinet|View 71 Tempered Glass Snow Edition",
+        "cabinet|Core V71 Power Cover Edition",
+        "cabinet|Core X9 Snow Edition",
+        "cabinet|Core V71",
+        "cabinet|Core P8 Tempered Glass Full Tower Chassis",
+        "cabinet|View 51 Tempered Glass ARGB Edition",
+        "cabinet|The Tower 900"
+    ],
+    "coolermastereatxft": [
+        "select cabinet|Select Cabinet",
+        "cabinet|COSMOS C700M",
+        "cabinet|HAF 700 EVO",
+        "cabinet|COSMOS C700P Black Edition"
+    ],
+    "atxft": [
+        "select brand|Select Brand",
+        "thermaltakeatxft|Thermaltake"
+    ],
+    "thermaltakeatxft": [
+        "select cabinet|Select Cabinet",
+        "cabinet|Core X71 Tempered Glass Edition",
+        "cabinet|Core X71"
+    ],
+    "openframe": [
+        "select form factor|Select Form Factor",
+        "eatxof|Upto E-ATX"
+    ],
+    "eatxof": [
+        "select brand|Select Brand",
+        "thermaltakeeatxof|Thermaltake",
+        "coolermastereatxof|Cooler Master"
+    ],
+    "thermaltakeeatxof": [
+        "select cabinet|Select Cabinet",
+        "cabinet|Core P7 Tempered Glass Edition"
+    ],
+    "coolermastereatxof": [
+        "select cabinet|Select Cabinet",
+        "cabinet|MasterFrame 700"
+    ],
+    "midtower": [
+        "select form factor|Select Form Factor",
+        "eatxmidt|Upto E-ATX",
+        "atxmidt|Upto ATX"
+    ],
+    "eatxmidt": [
+        "select brand|Select Brand",
+        "tteatxmidt|Thermaltake",
+        "neatxmidt|NZXT"
+    ],
+    "tteatxmidt": [
+        "select cabinet|Select Cabinet",
+        "cabinet|View 37 ARGB Edition",
+        "cabinet|View 37 Riing Edition",
+        "cabinet|Suppressor F51 Tempered Glass Edition",
+        "cabinet|Core V51 Tempered Glass Edition",
+        "cabinet|Core V51 Riing Edition"
+    ],
+    "neatxmidt": [
+        "select cabinet|Select Cabinet",
+        "cabinet|H7",
+        "cabinet|H7 Flow",
+        "cabinet|H7 Elite"
+    ],
+    "atxmidt": [
+        "select brand|Select Brand",
+        "ttatxmidt|Thermaltake",
+        "cmatxmidt|Cooler Master",
+        "natxmidt|NZXT"
+    ],
+    "ttatxmidt": [
+        "select cabinet|Select Cabinet",
+        "cabinet|View 200 TG ARGB Snow Mid Tower Chassis",
+        "cabinet|200 TG ARGB Snow Mid Tower Chassis",
+        "cabinet|Thermaltake Divider 370 TG Snow ARGB Mid Tower Chassis",
+        "cabinet|Thermaltake V350 TG ARGB Air Snow Mid Tower Chassis",
+        "cabinet|Divider 550 TG Ultra Mid Tower Chassis",
+        "cabinet|Core P6 Tempered Glass Turquoise Mid Tower Chassis",
+        "cabinet|Versa T35 Tempered Glass RGB Mid-Tower Chassis",
+        "cabinet|H330 Tempered Glass Mid-Tower Chassis",
+        "cabinet|S300 Tempered Glass Snow Edition Mid-Tower Chassis"
+    ],
+    "cmatxmidt": [
+        "select cabinet|Select Cabinet",
+        "cabinet|CMP 520",
+        "cabinet|HAF 500",
+        "cabinet|CMP 510",
+        "cabinet|MasterBox MB530P 2021 Upgrade",
+        "cabinet|MasterBox MB600L V2",
+        "cabinet|MasterBox K501L RGB",
+        "cabinet|MasterBox NR600P",
+        "cabinet|MasterBox MB511 ARGB",
+        "cabinet|MasterBox MB520 ARGB",
+        "cabinet|MasterCase H500 ARGB",
+        "cabinet|asterBox TD500 Mesh / Mesh White",
+        "cabinet|MasterCase SL600M Black Edition",
+        "cabinet|MasterBox CM694",
+        "cabinet|MasterBox Q500L",
+        "cabinet|MasterCase SL600M",
+        "cabinet|MasterBox K501L ARGB"
+    ],
+    "natxmidt": [
+        "select cabinet|Select Cabinet",
+        "cabinet|H510",
+        "cabinet|H510 Flow",
+        "cabinet|H510i",
+        "cabinet|H510 Elite"
+    ],
+    "microtower": [
+        "select form factor|Select Form Factor",
+        "atxmicrot|Upto ATX",
+        "microatxmicrot|Upto Micro-ATX"
+    ],
+    "atxmicrot": [
+        "select brand|Select Brand",
+        "thermaltakeatxmicrot|Thermaltake"
+    ],
+    "thermaltakeatxmicrot": [
+        "select cabinet|Select Cabinet",
+        "cabinet|Core G3",
+        "cabinet|Thermaltake Divider 170 TG Snow ARGB Micro Chassis",
+        "cabinet|AH T200 Racing Green Micro Chassis",
+        "cabinet|V150 Tempered Glass ARGB Breeze Micro Chassis"
+    ],
+    "microatxmicrot": [
+        "select brand|Select Brand",
+        "cmmicroatxmicrot|Cooler Master"
+    ],
+    "cmmicroatxmicrot": [
+        "select cabinet|Select Cabinet",
+        "cabinet|MasterBox MB311L ARGB",
+        "cabinet|MasterBox Q300L"
+    ],
+    "minitower": [
+        "select form factor|Select Form Factor",
+        "miniitxminit|Mini-ITX"
+    ],
+    "miniitxminit": [
+        "select brand|Select Brand",
+        "ttminiitxminit|Thermaltake",
+        "cmminiitxminit|Cooler Master",
+        "nminiitxminit|NZXT"
+    ],
+    "ttminiitxminit": [
+        "select cabinet|Select Cabinet",
+        "cabinet|The Tower 100 Metallic Gold Mini Chassis",
+        "cabinet|Core V1 Snow Edition"
+    ],
+    "cmminiitxminit": [
+        "select cabinet|Select Cabinet",
+        "cabinet|MasterBox NR200",
+        "cabinet|MasterBox NR200P",
+        "cabinet|Elite 110",
+        "cabinet|Elite 130"
+    ],
+    "nminiitxminit": [
+        "select cabinet|Select Cabinet",
+        "cabinet|H210",
+        "cabinet|H210i",
+        "cabinet|H1"
+    ]
+}

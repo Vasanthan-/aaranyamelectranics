@@ -152,7 +152,7 @@
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i7-8700"
     ],
-    "corei77th": [
+    "core i7 7th": [
         "select cpu|Select CPU",
         "lga1151|Intel® Core™ i7-7700"
     ],

@@ -1,4 +1,32 @@
 {
+    "lga2066": [
+        "select chipset|Select Chipset",
+        "x299|X299"
+    ],
+    "x299": [
+        "select brand|Select Brand",
+        "x299gigabyte|Gigabyte",
+        "x299asus|ASUS"
+    ],
+    "x299gigabyte": [
+        "select motherboard|Select Motherboard",
+        "ddr4|X299X AORUS MASTER (rev. 1.x)",
+        "ddr4|X299X AORUS XTREME WATERFORCE (rev. 1.0)",
+        "ddr4|X299-WU8 (rev. 1.0)",
+        "ddr4|X299 AORUS Gaming 9 (rev. 1.0)",
+        "ddr4|X299X DESIGNARE 10G (rev. 1.0)"
+    ],
+    "x299asus": [
+        "select motherboard|Select Motherboard",
+        "ddr4|ROG Rampage VI Extreme Encore",
+        "ddr4|ROG Strix X299-E Gaming II",
+        "ddr4|ROG STRIX X299-E GAMING",
+        "ddr4|ROG STRIX X299-XE GAMING",
+        "ddr4|ROG RAMPAGE VI EXTREME OMEGA",
+        "ddr4|Prime X299-A II",
+        "ddr4|Prime X299 Edition 30",
+        "ddr4|PRIME X299-DELUXE II"
+    ],
     "lga1700": [
         "select chipset|Select Chipset",
         "b660|B660",
@@ -124,18 +152,180 @@
         "b460|B460",
         "h470|H470"
     ],
-    "lga1151":[
+    "z590": [
+        "select brand|Select Brand",
+        "z590gigabyte|Gigabyte",
+        "z590asus|ASUS"
+    ],
+    "z590gigabyte": [
+        "ddr4|Z590 AORUS XTREME WATERFORCE",
+        "ddr4|Z590 AORUS XTREME",
+        "ddr4|Z590 AORUS MASTER",
+        "ddr4|Z590I AORUS ULTRA",
+        "ddr4|Z590 AORUS PRO AX",
+        "ddr4|Z590 AORUS ELITE AX",
+        "ddr4|Z590 AORUS ELITE",
+        "ddr4|Z590 AORUS TACHYON"
+    ],
+    "z590asus": [
+        "ddr4|ROG STRIX Z590-A GAMING WIFI II",
+        "ddr4|TUF GAMING Z590-PLUS"
+    ],
+    "z490": [
+        "select brand|Select Brand",
+        "z490gigabyte|Gigabyte",
+        "z490asus|ASUS"
+    ],
+    "z490gigabyte": [
+        "ddr4|Z490 AORUS XTREME WATERFORCE",
+        "ddr4|Z490 AORUS MASTER WATERFORCE",
+        "ddr4|Z490 AORUS XTREME",
+        "ddr4|Z490 AORUS MASTER",
+        "ddr4|Z490 AORUS ULTRA G2",
+        "ddr4|Z490I AORUS ULTRA",
+        "ddr4|Z490 AORUS PRO AX",
+        "ddr4|Z490 AORUS ELITE"
+    ],
+    "z490asus": [
+        "ddr4|TUF GAMING Z490-PLUS",
+        "ddr4|TUF GAMING Z490-PLUS (WI-FI)",
+        "ddr4|ROG MAXIMUS XIII APEX"
+    ],
+    "b560": [
+        "select brand|Select Brand",
+        "b560gigabyte|Gigabyte"
+    ],
+    "b560gigabyte": [
+        "ddr4|B560M AORUS ELITE",
+        "ddr4|B560 AORUS PRO AX",
+        "ddr4|B560M AORUS PRO"
+    ],
+    "b460": [
+        "select brand|Select Brand",
+        "b460gigabyte|Gigabyte",
+        "b460asus|ASUS"
+    ],
+    "b460gigabyte": [
+        "ddr4|B460M AORUS ELITE",
+        "ddr4|B460 AORUS PRO AC",
+        "ddr4|B460 AORUS PRO"
+    ],
+    "b460asus": [
+        "ddr4|TUF GAMING B460M-PRO",
+        "ddr4|TUF GAMING B460M-PLUS(WI-FI)",
+        "ddr4|TUF GAMING B460-PLUS",
+        "ddr4|TUF GAMING B460M-PLUS",
+        "ddr4|TUF GAMING B460M-PRO (WI-FI)"
+    ],
+    "h470": [
+        "select brand|Select Brand",
+        "h470gigabyte|Gigabyte",
+        "h470asus|ASUS"
+    ],
+    "h470gigabyte": [
+        "ddr4|H470 AORUS PRO AX",
+        "ddr4|H470I AORUS PRO AX"
+    ],
+    "h470asus": [
+        "ddr4|TUF GAMING H470-PRO",
+        "ddr4|TUF GAMING H470-PRO (WI-FI)"
+    ],
+    "lga1151": [
         "select chipset|Select Chipset",
         "z390|Z390",
         "z370|Z370",
         "h370|H370",
         "b360b365|B360/B365"
     ],
-    "am5":[
+    "z390": [
+        "select brand|Select Brand",
+        "z390gigabyte|Gigabyte",
+        "z390asus|ASUS"
+    ],
+    "z390gigabyte": [
+        "ddr4|Z390 AORUS MASTER G2 Edition",
+        "ddr4|Z390 AORUS XTREME WATERFORCE 5G",
+        "ddr4|Z390 AORUS XTREME WATERFORCE",
+        "ddr4|Z390 AORUS XTREME",
+        "ddr4|Z390 DESIGNARE",
+        "ddr4|Z390 AORUS MASTER",
+        "ddr4|Z390 AORUS ULTRA",
+        "ddr4|Z390 AORUS PRO",
+        "ddr4|Z390 AORUS PRO WIFI",
+        "ddr4|Z390 AORUS ELITE",
+        "ddr4|Z390 I AORUS PRO WIFI",
+        "ddr4|Z390 GAMING SLI",
+        "ddr4|Z390 GAMING X",
+        "ddr4|Z390M GAMING",
+        "ddr4|Z390 UD"
+    ],
+    "z390asus": [
+        "ddr4|TUF Z390M-PRO GAMING (WI-FI)",
+        "ddr4|TUF Z390M-PLUS GAMING (WI-FI)",
+        "ddr4|TUF Z390-PRO GAMING",
+        "ddr4|TUF Z390M-PRO GAMING",
+        "ddr4|TUF Z390-PLUS GAMING",
+        "ddr4|TUF Z390-PLUS GAMING II"
+    ],
+    "z370": [
+        "select brand|Select Brand",
+        "z370gigabyte|Gigabyte",
+        "z370asus|ASUS"
+    ],
+    "z370gigabyte": [
+        "ddr4|Z370 AORUS GAMING 7",
+        "ddr4|Z370 AORUS ULTRA GAMING 2.0",
+        "ddr4|Z370 AORUS ULTRA GAMING WIFI",
+        "ddr4|Z370 AORUS ULTRA GAMING",
+        "ddr4|Z370 AORUS GAMING 5",
+        "ddr4|Z370 AORUS GAMING 3",
+        "ddr4|Z370 AORUS GAMING K3",
+        "ddr4|Z370 AORUS GAMING WIFI"
+    ],
+    "z370asus": [
+        "ddr4|TUF Z370-PLUS GAMING",
+        "ddr4|TUF Z370-PRO GAMING"
+    ],
+    "h370": [
+        "select brand|Select Brand",
+        "h370gigabyte|Gigabyte"
+    ],
+    "h370gigabyte": [
+        "ddr4|H370 AORUS GAMING 3 WIFI",
+        "ddr4|H370 AORUS GAMING 3"
+    ],
+    "b360b365": [
+        "select brand|Select Brand",
+        "b360b365gigabyte|Gigabyte",
+        "b360b365asus|ASUS"
+    ],
+    "b360b365gigabyte": [
+        "ddr4|B360M GAMING HD",
+        "ddr4|B360M H"
+    ],
+    "b360b365asus": [
+        "ddr4|TUF B365-PLUS GAMING",
+        "ddr4|TUF B365M-PLUS GAMING",
+        "ddr4|TUF B360M-PLUS GAMING S",
+        "ddr4|TUF B360M-PLUS GAMING",
+        "ddr4|TUF B360-PLUS GAMING",
+        "ddr4|TUF B360-PRO GAMING",
+        "ddr4|TUF B360-PRO GAMING (WI-FI)"
+    ],
+    "am5": [
         "select chipset|Select Chipset",
         "x670|X670"
     ],
-    "am4":[
+    "x670": [
+        "select brand|Select Brand",
+        "x670gigabyte|Gigabyte"
+    ],
+    "x670gigabyte": [
+        "ddr5|X670E AORUS XTREME",
+        "ddr5|X670E AORUS MASTER",
+        "ddr5|X670E AORUS ELITE AX"
+    ],
+    "am4": [
         "select chipset|Select Chipset",
         "x570|X570",
         "x470|X470",
@@ -143,12 +333,125 @@
         "b450|B450",
         "a520|A520"
     ],
-    "strx4":[
+    "x570": [
+        "select brand|Select Brand",
+        "x570gigabyte|Gigabyte",
+        "x570asus|ASUS"
+    ],
+    "x570gigabyte": [
+        "ddr4|X570 AORUS XTREME",
+        "ddr4|X570S AORUS PRO AX",
+        "ddr4|X570 AORUS MASTER",
+        "ddr4|X570 AORUS ULTRA",
+        "ddr4|X570 AORUS PRO WIFI",
+        "ddr4|X570 AORUS ELITE WIFI",
+        "ddr4|X570SI AORUS PRO AX",
+        "ddr4|X570S AORUS MASTER",
+        "ddr4|X570S AERO G"
+    ],
+    "x570asus": [
+        "ddr4|TUF GAMING X570-PRO WIFI II",
+        "ddr4|ProArt X570-CREATOR WIFI",
+        "ddr4|ROG STRIX X570-E GAMING WIFI II",
+        "ddr4|ROG CROSSHAIR VIII EXTREME"
+    ],
+    "x470": [
+        "select brand|Select Brand",
+        "x470gigabyte|Gigabyte"
+    ],
+    "x470gigabyte": [
+        "ddr4|X470 AORUS GAMING 7 WIFI",
+        "ddr4|X470 AORUS GAMING 5 WIFI",
+        "ddr4|X470 AORUS ULTRA GAMING"
+    ],
+    "b550": [
+        "select brand|Select Brand",
+        "b550gigabyte|Gigabyte",
+        "b550asus|ASUS"
+    ],
+    "b550gigabyte": [
+        "ddr4|B550M AORUS PRO AX",
+        "ddr4|B550 AORUS ELITE AX V2",
+        "ddr4|B550I AORUS PRO AX",
+        "ddr4|B550 AORUS PRO AX",
+        "ddr4|B550 AORUS PRO V2",
+        "ddr4|B550M DS3H AC",
+        "ddr4|B550M AORUS PRO-P",
+        "ddr4|B550 AORUS ELITE V2",
+        "ddr4|B550 Gaming X V2",
+        "ddr4|B550 AORUS ELITE AX",
+        "ddr4|B550 VISION D"
+    ],
+    "b550asus": [
+        "ddr4|TUF GAMING B550-PLUS WIFI II",
+        "ddr4|TUF GAMING B550M-PLUS WIFI II",
+        "ddr4|PRIME B550M-A WIFI II-CSM",
+        "ddr4|PRIME B550M-A WIFI II",
+        "ddr4|ROG STRIX B550-F GAMING WIFI II",
+        "ddr4|TUF GAMING B550M-E WIFI",
+        "ddr4|TUF GAMING B550M-E",
+        "ddr4|ProArt B550-CREATOR"
+    ],
+    "b450": [
+        "select brand|Select Brand",
+        "b450gigabyte|Gigabyte"
+    ],
+    "b450gigabyte": [
+        "ddr4|B450M DS3H V2",
+        "ddr4|B450 AORUS Elite V2",
+        "ddr4|B450M S2H V2"
+    ],
+    "a520": [
+        "select brand|Select Brand",
+        "a520gigabyte|Gigabyte",
+        "a520asus|ASUS"
+    ],
+    "a520gigabyte": [
+        "ddr4|A520I AC",
+        "ddr4|A520M H",
+        "ddr4|A520M S2H",
+        "ddr4|A520M DS3H"
+    ],
+    "a520asus": [
+        "ddr4|Pro A520M-C II/CSM",
+        "ddr4|PRIME A520M-A II/CSM",
+        "ddr4|TUF GAMING A520M-PLUS II",
+        "ddr4|PRIME A520M-A II",
+        "ddr4|TUF GAMING A520M-PLUS WIFI",
+        "ddr4|TUF GAMING A520M-PLUS WIFI",
+        "ddr4|Pro B550M-C/CSM",
+        "ddr4|TUF GAMING B550-PRO"
+    ],
+    "strx4": [
         "select chipset|Select Chipset",
         "trx40|TRX40"
     ],
-    "swrx8":[
+    "trx40": [
+        "select brand|Select Brand",
+        "trx40gigabyte|Gigabyte",
+        "trx40asus|ASUS"
+    ],
+    "trx40gigabyte": [
+        "ddr4|TRX40 AORUS MASTER",
+        "ddr4|TRX40 AORUS XTREME",
+        "ddr4|TRX40 DESIGNARE",
+        "ddr4|TRX40 AORUS XTREME",
+        "ddr4|TRX40 AORUS PRO WIFI"
+    ],
+    "trx40asus": [
+        "ddr4|ROG Zenith II Extreme",
+        "ddr4|ROG Strix TRX40-E Gaming",
+        "ddr4|Prime TRX40-Pro"
+    ],
+    "swrx8": [
         "select chipset|Select Chipset",
         "wrx80|WRX80"
+    ],
+    "wrx80": [
+        "select brand|Select Brand",
+        "wrx80msi|MSI"
+    ],
+    "wrx80msi":[
+        "ddr4|WS WRX80"
     ]
 }

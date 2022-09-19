@@ -18,12 +18,12 @@
         "hddsea|Seagate",
         "hddwd|Western Digital"
     ],
-    "m2sea|Seagate": [
+    "m2sea": [
         "Seagate BarraCuda Q5 SSD 500GB",
         "Seagate BarraCuda Q5 SSD 1TB",
         "Seagate BarraCuda Q5 SSD 2TB"
     ],
-    "m2wd|Western Digital": [
+    "m2wd": [
         " WD Blue™ SN550 NVMe™ SSD 250GB",
         "WD Blue™ SN550 NVMe™ SSD 500GB",
         "WD Blue™ SN550 NVMe™ SSD 1TB",
@@ -33,7 +33,7 @@
         "WD Blue™ SN570 NVMe™ SSD 1TB",
         "WD Blue™ SN570 NVMe™ SSD 2TB"
     ],
-    "m2sam|Samsung": [
+    "m2sam": [
         "980 NVMe M.2 SSD 250GB",
         "980 NVMe M.2 SSD 500GB",
         "980 NVMe M.2 SSD 1TB",
@@ -43,7 +43,7 @@
         "970 EVO Plus NVMe M.2 SSD 1TB",
         "970 EVO Plus NVMe M.2 SSD 2TB"
     ],
-    "m2cru|Crucial": [
+    "m2cru": [
         "Crucial P2 250GB PCIe M.2 2280 SSD",
         "Crucial P2 500GB PCIe M.2 2280 SSD",
         "Crucial P2 1TB PCIe M.2 2280SS SSD",
@@ -58,7 +58,7 @@
         "Crucial P5 Plus 500GB PCIe M.2 2280SS Gaming SSD",
         "Crucial P5 Plus 1TB PCIe M.2 2280SS Gaming SSD"
     ],
-    "satassdsea|Seagate": [
+    "satassdsea": [
         "Seagate FireCuda 530 SSD 500GB",
         "Seagate FireCuda 530 SSD 1TB",
         "Seagate FireCuda 530 SSD 2TB",
@@ -68,7 +68,7 @@
         "Seagate BarraCuda 120 SSD 1TB",
         "Seagate BarraCuda 120 SSD 2TB"
     ],
-    "satassdwd|Western Digital": [
+    "satassdwd": [
         "WD Blue SA510 SATA SSD 2.5”/7mm Cased 250GB",
         "WD Blue SA510 SATA SSD 2.5”/7mm Cased 500GB",
         "WD Blue SA510 SATA SSD 2.5”/7mm Cased 1TB",
@@ -78,7 +78,7 @@
         "WD Blue™ SATA SSD 2.5”/7mm cased 2TB",
         "WD Blue™ SATA SSD 2.5”/7mm cased 4TB"
     ],
-    "satassdsam|Samsung": [
+    "satassdsam": [
         "870 EVO SATA III 6.35cm (2.5 inch) SSD 250GB",
         "870 EVO SATA III 6.35cm (2.5 inch) SSD 500GB",
         "870 EVO SATA III 6.35cm (2.5 inch) SSD 1TB",
@@ -86,7 +86,7 @@
         "870 EVO SATA III 6.35cm (2.5 inch) SSD 4TB",
         "870 QVO SATA 6.35cm (2.5 inch) SSD 2TB"
     ],
-    "satassdcru|Crucial": [
+    "satassdcru": [
         "Crucial MX500 250GB SATA 2.5-inch Internal SSD",
         "Crucial MX500 500GB SATA 2.5-inch Internal SSD",
         "Crucial MX500 1TB SATA 2.5-inch Internal SSD",
@@ -97,13 +97,13 @@
         "Crucial BX500 1TB SATA 2.5-inch SSD",
         "Crucial BX500 2TB SATA 2.5-inch SSD"
     ],
-    "hybridsea|Seagate": [
+    "hybridsea": [
         "Seagate FireCuda 3.5 inch 1 TB",
         "Seagate FireCuda 3.5 inch 2 TB",
         "Seagate FireCuda 3.5 inch 4 TB",
         "Seagate FireCuda 3.5 inch 8 TB"
     ],
-    "hddsea|Seagate": [
+    "hddsea": [
         "Seagate BarraCuda 7200 RPM 3.5 inch 1TB",
         "Seagate BarraCuda 7200 RPM 3.5 inch 2TB ",
         "Seagate BarraCuda 5400 RPM 3.5 inch 2TB ",
@@ -112,7 +112,7 @@
         "Seagate BarraCuda 5400 RPM 3.5 inch 6TB ",
         "Seagate BarraCuda 5400 RPM 3.5 inch 8TB"
     ],
-    "hddwd|Western Digital": [
+    "hddwd": [
         " WD Blue PC 7200 RPM 3.5 inch 1TB ",
         "WD Blue PC 7200 RPM 3.5 inch 2TB ",
         "WD Blue PC 5400 RPM 3.5 inch 1TB ",

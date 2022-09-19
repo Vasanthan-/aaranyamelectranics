@@ -1,1 +1,395 @@
-{}
+{
+    "lga2066": [
+        "select cooler type|Select Cooler Type",
+        "lga2066ac|Air Cooler",
+        "lga2066lc|Liquid Cooler"
+    ],
+    "lga2066ac": [
+        "select brand|Select Brand",
+        "cmlga2066ac|Cooler Master"
+    ],
+    "cmlga2066ac": [
+        "select cooler|Select Cooler",
+        "cooler|MasterAir MA620M",
+        "cooler|MasterAir G200P",
+        "cooler|MasterAir MA410M TUF Gaming Edition"
+    ],
+    "lga2066lc": [
+        "select brand|Select Brand",
+        "cmlga2066lc|Cooler Master",
+        "clga2066lc|Corsair",
+        "dclga2066lc|DeepCool"
+    ],
+    "cmlga2066lc": [
+        "select cooler|Select Cooler",
+        "cooler|MasterLiquid ML240R RGB Phantom Gaming Edition",
+        "cooler|MasterLiquid ML120L RGB TUF Gaming Edition",
+        "cooler|MasterLiquid ML120RS RGB",
+        "cooler|MasterLiquid Pro 240 RGB",
+        "cooler|MasterLiquid Pro 280 RGB",
+        "cooler|MasterLiquid Pro 120 RGB"
+    ],
+    "clga2066lc": [
+        "select cooler|Select Cooler",
+        "cooler|H150 RGB 360mm Liquid CPU Cooler",
+        "cooler|H150 RGB 240mm Liquid CPU Cooler",
+        "cooler|iCUE H60i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H100i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dclga2066lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|LS320",
+        "cooler|CASTLE 360RGB V1",
+        "cooler|CASTLE 240RGB V1",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 280EX",
+        "cooler|CASTLE 240EX",
+        "cooler|GAMMAXX L360 V2",
+        "cooler|GAMMAXX L120 V2",
+        "cooler|GAMMAXX L120T WHITE",
+        "cooler|CAPTAIN 360X WHITE",
+        "cooler|CAPTAIN 240PRO V2",
+        "cooler|CAPTAIN 240X"
+    ],
+    "lga1700": [
+        "select cooler type|Select Cooler Type",
+        "lga1700ac|Air Cooler",
+        "lga1700lc|Liquid Cooler"
+    ],
+    "lga1700ac": [
+        "select brand|Select Brand",
+        "cmlga1700ac|Cooler Master"
+    ],
+    "cmlga1700ac": [
+        "select cooler|Select Cooler",
+        "cooler|MasterAir MA612 Stealth",
+        "cooler|MasterAir MA612 Stealth ARGB",
+        "cooler|MasterAir MA624 Stealth",
+        "cooler|Hyper 212 EVO V2 with LGA1700 (New Packaging)",
+        "cooler|MasterAir MA610P ARGB"
+    ],
+    "lga1700lc": [
+        "select brand|Select Brand",
+        "cmlga1700lc|Cooler Master",
+        "clga1700lc|Corsair",
+        "dclga1700lc|DeepCool"
+    ],
+    "cmlga1700lc": [
+        "select cooler|Select Cooler",
+        "cooler|Masterliquid PL360 Flux",
+        "cooler|Masterliquid PL240 Flux",
+        "cooler|MasterLiquid ML360 Illusion",
+        "cooler|MasterLiquid ML240 Illusion",
+        "cooler|MasterLiquid ML240 Illusion White Edition",
+        "cooler|MasterLiquid ML240L V2 RGB White Edition"
+    ],
+    "clga1700lc": [
+        "select cooler|Select Cooler",
+        "cooler|H150 RGB 360mm Liquid CPU Cooler",
+        "cooler|H150 RGB 240mm Liquid CPU Cooler",
+        "cooler|iCUE H60i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H100i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dclga1700lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|LS320",
+        "cooler|CASTLE 360RGB V1",
+        "cooler|CASTLE 240RGB V1",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 240EX",
+        "cooler|GAMMAXX L360 V2",
+        "cooler|GAMMAXX L240 V2",
+        "cooler|GAMMAXX L120 V2",
+        "cooler|GAMMAXX L120T WHITE"
+    ],
+    "lga1200": [
+        "select cooler type|Select Cooler Type",
+        "lga1200ac|Air Cooler",
+        "lga1200lc|Liquid Cooler"
+    ],
+    "lga1200ac": [
+        "select brand|Select Brand",
+        "cmlga1200ac|Cooler Master"
+    ],
+    "cmlga1200ac": [
+        "select cooler|Select Cooler",
+        "cooler|MasterAir MA612 Stealth",
+        "cooler|MasterAir MA612 Stealth ARGB",
+        "cooler|MasterAir MA624 Stealth",
+        "cooler|Hyper 212 EVO V2 with LGA1700 (New Packaging)",
+        "cooler|MasterAir MA610P ARGB"
+    ],
+    "lga1200lc": [
+        "select brand|Select Brand",
+        "cmlga1200lc|Cooler Master",
+        "clga1200lc|Corsair",
+        "dclga1200lc|DeepCool"
+    ],
+    "cmlga1200lc": [
+        "select cooler|Select Cooler",
+        "cooler|Masterliquid PL360 Flux",
+        "cooler|Masterliquid PL240 Flux",
+        "cooler|MasterLiquid ML360 Illusion",
+        "cooler|MasterLiquid ML240 Illusion",
+        "cooler|MasterLiquid ML240 Illusion White Edition",
+        "cooler|Masterliquid ML360 Mirror TR4 Edition",
+        "cooler|MasterLiquid ML360 SUB-ZERO",
+        "cooler|MASTERLIQUID ML240P MIRAGE"
+    ],
+    "clga1200lc": [
+        "select cooler|Select Cooler",
+        "cooler|H150 RGB 360mm Liquid CPU Cooler",
+        "cooler|H150 RGB 240mm Liquid CPU Cooler",
+        "cooler|iCUE H60i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H100i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dclga1200lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|LS320",
+        "cooler|CASTLE 360RGB V2",
+        "cooler|CASTLE 240RGB V2",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 280EX",
+        "cooler|CASTLE 240EX",
+        "cooler|GAMMAXX L240 V2",
+        "cooler|GAMMAXX L120 V2",
+        "cooler|GAMMAXX L120T WHITE",
+        "cooler|CAPTAIN 240X",
+        "cooler|CAPTAIN 240PRO V2",
+        "cooler|CAPTAIN 360X WHITE"
+    ],
+    "lga1151": [
+        "select cooler type|Select Cooler Type",
+        "lga1151ac|Air Cooler",
+        "lga1151lc|Liquid Cooler"
+    ],
+    "lga1151ac": [
+        "select brand|Select Brand",
+        "cmlga1151ac|Cooler Master"
+    ],
+    "cmlga1151ac": [
+        "select cooler|Select Cooler",
+        "cooler|MasterAir MA612 Stealth",
+        "cooler|MasterAir MA612 Stealth ARGB",
+        "cooler|MasterAir MA624 Stealth",
+        "cooler|Hyper 212 EVO V2 with LGA1700 (New Packaging)",
+        "cooler|MasterAir MA610P ARGB"
+    ],
+    "lga1151lc": [
+        "select brand|Select Brand",
+        "cmlga1151lc|Cooler Master",
+        "clga1151lc|Corsair",
+        "dclga1151lc|DeepCool"
+    ],
+    "cmlga1151lc": [
+        "select cooler|Select Cooler",
+        "cooler|Masterliquid PL360 Flux",
+        "cooler|Masterliquid PL240 Flux",
+        "cooler|MasterLiquid ML360 Illusion",
+        "cooler|MasterLiquid ML240 Illusion",
+        "cooler|MasterLiquid ML240 Illusion White Edition",
+        "cooler|Masterliquid ML360 Mirror TR4 Edition",
+        "cooler|MasterLiquid ML360 SUB-ZERO",
+        "cooler|MASTERLIQUID ML240P MIRAGE"
+    ],
+    "clga1151lc": [
+        "select cooler|Select Cooler",
+        "cooler|H150 RGB 360mm Liquid CPU Cooler",
+        "cooler|H150 RGB 240mm Liquid CPU Cooler",
+        "cooler|iCUE H60i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H100i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dclga1151lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|LS320",
+        "cooler|CASTLE 360RGB V2",
+        "cooler|CASTLE 240RGB V2",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 280EX",
+        "cooler|CASTLE 240EX",
+        "cooler|GAMMAXX L240 V2",
+        "cooler|GAMMAXX L120 V2",
+        "cooler|GAMMAXX L120T WHITE",
+        "cooler|CAPTAIN 240X",
+        "cooler|CAPTAIN 240PRO V2",
+        "cooler|CAPTAIN 360X WHITE"
+    ],
+    "am4": [
+        "select cooler type|Select Cooler Type",
+        "am4ac|Air Cooler",
+        "am4lc|Liquid Cooler"
+    ],
+    "am4ac": [
+        "select brand|Select Brand",
+        "cmam4ac|Cooler Master"
+    ],
+    "cmam4ac": [
+        "select cooler|Select Cooler",
+        "cooler|MasterAir MA612 Stealth",
+        "cooler|MasterAir MA612 Stealth ARGB",
+        "cooler|MasterAir MA624 Stealth",
+        "cooler|Hyper 212 EVO V2 with LGA1700 (New Packaging)",
+        "cooler|MasterAir MA610P ARGB"
+    ],
+    "am4lc": [
+        "select brand|Select Brand",
+        "cmam4lc|Cooler Master",
+        "cam4lc|Corsair",
+        "dcam4lc|DeepCool"
+    ],
+    "cmam4lc": [
+        "select cooler|Select Cooler",
+        "cooler|Masterliquid PL360 Flux",
+        "cooler|Masterliquid PL240 Flux",
+        "cooler|MasterLiquid ML360 Illusion",
+        "cooler|MasterLiquid ML240 Illusion",
+        "cooler|MasterLiquid ML240 Illusion White Edition",
+        "cooler|Masterliquid ML360 Mirror TR4 Edition",
+        "cooler|MasterLiquid ML360 SUB-ZERO",
+        "cooler|MASTERLIQUID ML240P MIRAGE"
+    ],
+    "cam4lc": [
+        "select cooler|Select Cooler",
+        "cooler|H150 RGB 360mm Liquid CPU Cooler",
+        "cooler|H150 RGB 240mm Liquid CPU Cooler",
+        "cooler|iCUE H60i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H100i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dcam4lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|LS320",
+        "cooler|CASTLE 360RGB V2",
+        "cooler|CASTLE 240RGB V2",
+        "cooler|GAMMAXX L360 V2",
+        "cooler|GAMMAXX L240 V2",
+        "cooler|GAMMAXX L120 V2",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 280EX",
+        "cooler|CASTLE 240EX"
+    ],
+    "am5": [
+        "select cooler type|Select Cooler Type",
+        "am5lc|Liquid Cooler"
+    ],
+    "am5lc": [
+        "select brand|Select Brand",
+        "dcam5lc|DeepCool"
+    ],
+    "dcam5lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|LS320",
+        "cooler|CASTLE 360RGB V2",
+        "cooler|CASTLE 240RGB V2",
+        "cooler|GAMMAXX L360 V2",
+        "cooler|GAMMAXX L240 V2",
+        "cooler|GAMMAXX L120 V2",
+        "cooler|GAMMAXX L120T WHITE",
+        "cooler|CAPTAIN 360X WHITE",
+        "cooler|CAPTAIN 240PRO V2",
+        "cooler|CAPTAIN 240X"
+    ],
+    "strx4": [
+        "select cooler type|Select Cooler Type",
+        "strx4lc|Liquid Cooler"
+    ],
+    "strx4lc": [
+        "select brand|Select Brand",
+        "cstrx4lc|Corsair",
+        "dcstrx4lc|DeepCool"
+    ],
+    "cstrx4lc": [
+        "select cooler|Select Cooler",
+        "cooler|iCUE H115i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H100i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H115i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H170i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H170i ELITE LCD Display Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB ELITE Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dcstrx4lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|CASTLE 360RGB V3",
+        "cooler|CASTLE 240RGB V3",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 280EX",
+        "cooler|CASTLE 240EX",
+        "cooler|CAPTAIN 240X",
+        "cooler|CAPTAIN 240PRO V2",
+        "cooler|CAPTAIN 360X WHITE"
+    ],
+    "swrx8": [
+        "select cooler type|Select Cooler Type",
+        "swrx8lc|Liquid Cooler"
+    ],
+    "swrx8lc": [
+        "select brand|Select Brand",
+        "cswrx8lc|Corsair",
+        "dcswrx8lc|DeepCool"
+    ],
+    "cswrx8lc": [
+        "select cooler|Select Cooler",
+        "cooler|iCUE H115i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H100i RGB PRO XT Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H100i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H115i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H170i ELITE CAPELLIX Liquid CPU Cooler",
+        "cooler|iCUE H150i ELITE CAPELLIX Liquid CPU Cooler — White",
+        "cooler|iCUE H170i ELITE LCD Display Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB ELITE Liquid CPU Cooler",
+        "cooler|iCUE H150i RGB ELITE Liquid CPU Cooler"
+    ],
+    "dcswrx8lc": [
+        "select cooler|Select Cooler",
+        "cooler|LS720 WH",
+        "cooler|LS520 WH",
+        "cooler|CASTLE 360RGB V3",
+        "cooler|CASTLE 240RGB V3",
+        "cooler|CASTLE 360EX",
+        "cooler|CASTLE 280EX",
+        "cooler|CASTLE 240EX",
+        "cooler|CAPTAIN 240X",
+        "cooler|CAPTAIN 240PRO V2",
+        "cooler|CAPTAIN 360X WHITE"
+    ]
+}
