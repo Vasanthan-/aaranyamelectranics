@@ -1,10 +1,12 @@
 {
     "nonmodular": [
+        "select wattage|select Wattage",
         "nm500|500 - 599",
         "nm600|600 - 699",
         "nm700|700 - 799",
         "nm800|800 - 899"    ],
     "nm500": [
+        "select rating|Select Rating",
         "nm500s|Standard",
         "nm50080b|80+ Bronze",
         "nm50080g|80+ Gold"
@@ -38,6 +40,7 @@
         "psu|Thermaltake Toughpower GX1 RGB 500W Gold"
     ],
     "nm600": [
+        "select rating|Select Rating",
         "nm600s|Standard",
         "nm60080b|80+ Bronze",
         "nm60080g|80+ Gold"
@@ -70,6 +73,7 @@
         "psu|Gigabyte P650G"
     ],
     "nm700": [
+        "select rating|Select Rating",
         "nm700s|Standard",
         "nm70080b|80+ Bronze",
         "nm70080g|80+ Gold"
@@ -97,6 +101,7 @@
         "psu|Thermaltake Toughpower GX1 RGB 700W Gold"
     ],
     "nm800": [
+        "select rating|Select Rating",
         "nm80080g|80+ Gold"
     ],
     "nm80080g": [
@@ -105,6 +110,7 @@
         "psu|Cooler Master MWE Gold 850 - V2"
     ],
     "semimodular": [
+        "select wattage|select Wattage",
         "sm500|500 - 599",
         "sm600|600 - 699",
         "sm700|700 - 799",
@@ -112,6 +118,7 @@
         "sm1000|1000+"
     ],
     "sm500": [
+        "select rating|Select Rating",
         "sm50080b|80+ Bronze",
         "sm50080g|80+ Gold"
     ],
@@ -127,6 +134,7 @@
         "psu|Thermaltake Toughpower 550W Gold (Modular)"
     ],
     "sm600": [
+        "select rating|Select Rating",
         "sm60080b|80+ Bronze",
         "sm60080g|80+ Gold"
     ],
@@ -143,6 +151,7 @@
         "psu|Thermaltake Toughpower 650W Gold (Modular)"
     ],
     "sm700": [
+        "select rating|Select Rating",
         "sm70080b|80+ Bronze",
         "sm70080g|80+ Gold"
     ],
@@ -160,6 +169,7 @@
         "psu|Gigabyte GP-G750H"
     ],
     "sm800": [
+        "select rating|Select Rating",
         "sm800s|Standard",
         "sm80080b|80+ Bronze",
         "sm80080g|80+ Gold"
@@ -177,6 +187,7 @@
         "psu|Thermaltake Toughpower 850W GOLD"
     ],
     "sm1000": [
+        "select rating|Select Rating",
         "sm100080g|80+ Gold"
     ],
     "sm100080g": [
@@ -187,6 +198,7 @@
         "psu|Thermaltake Toughpower 1500W Gold"
     ],
     "fullymodular": [
+        "select wattage|select Wattage",
         "fm500|500 - 599",
         "fm600|600 - 699",
         "fm700|700 - 799",
@@ -194,6 +206,7 @@
         "fm1000|1000+"
     ],
     "fm500": [
+        "select rating|Select Rating",
         "fm500s|Standard",
         "fm50080g|80+ Gold"
     ],
@@ -208,6 +221,7 @@
         "psu|Thermaltake Toughpower SFX 550W Gold - TT Premium Edition"
     ],
     "fm600": [
+        "select rating|Select Rating",
         "fm60080b|80+ Bronze",
         "fm60080g|80+ Gold",
         "fm60080p|80+ Platinum"
@@ -236,6 +250,7 @@
         "psu|Cooler Master XG650 Platinum"
     ],
     "fm700": [
+        "select rating|Select Rating",
         "fm70080b|80+ Bronze",
         "fm70080g|80+ Gold",
         "fm70080p|80+ Platinum"
@@ -261,6 +276,7 @@
         "psu|Cooler Master XG750 Platinum"
     ],
     "fm800": [
+        "select rating|Select Rating",
         "fm80080b|80+ Bronze",
         "fm80080g|80+ Gold",
         "fm80080p|80+ Platinum"
@@ -285,6 +301,7 @@
         "psu|Cooler Master V850 Platinum"
     ],
     "fm1000": [
+        "select rating|Select Rating",
         "fm100080g|80+ Gold",
         "fm100080p|80+ Platinum",
         "fm100080t|80+ Titanium"
