@@ -64,6 +64,7 @@
         "ddr4|B660 AORUS MASTER DDR4"
     ],
     "b660asus": [
+        "select motherboard|Select Motherboard",
         "ddr5|ROG STRIX B660-G GAMING WIFI DDR5",
         "ddr5|ROG STRIX B660-F GAMING WIFI DDR5",
         "ddr5|ROG STRIX B660-I GAMING WIFI DDR5",
@@ -78,6 +79,7 @@
         "z690asus|ASUS"
     ],
     "z690gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr5|Z690 GAMING X DDR5",
         "ddr5|Z690I AORUS ULTRA DDR5",
         "ddr5|Z690 AORUS TACHYON DDR5",
@@ -107,6 +109,7 @@
         "ddr4|Z690M AORUS ELITE AX DDR4"
     ],
     "z690asus": [
+        "select motherboard|Select Motherboard",
         "ddr5|ROG MAXIMUS Z690 HERO EVA EDITION DDR5",
         "ddr5|ROG STRIX Z690-A GAMING WIFI DDR5",
         "ddr4|ROG MAXIMUS Z690 HERO DDR4",
@@ -129,6 +132,7 @@
         "h610asus|ASUS"
     ],
     "h610gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr5|H610M HD3P DDR5",
         "ddr4|H610M S2 DDR4",
         "ddr4|H610M H DDR4",
@@ -136,6 +140,7 @@
         "ddr4|H610I DDR4"
     ],
     "h610asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|PRIME H610M-F D4-CSM  DDR4",
         "ddr4|PRIME H610I-PLUS D4-CSM  DDR4",
         "ddr4|PRIME H610I-PLUS D4  DDR4",
@@ -158,6 +163,7 @@
         "z590asus|ASUS"
     ],
     "z590gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|Z590 AORUS XTREME WATERFORCE",
         "ddr4|Z590 AORUS XTREME",
         "ddr4|Z590 AORUS MASTER",
@@ -168,6 +174,7 @@
         "ddr4|Z590 AORUS TACHYON"
     ],
     "z590asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|ROG STRIX Z590-A GAMING WIFI II",
         "ddr4|TUF GAMING Z590-PLUS"
     ],
@@ -177,6 +184,7 @@
         "z490asus|ASUS"
     ],
     "z490gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|Z490 AORUS XTREME WATERFORCE",
         "ddr4|Z490 AORUS MASTER WATERFORCE",
         "ddr4|Z490 AORUS XTREME",
@@ -187,6 +195,7 @@
         "ddr4|Z490 AORUS ELITE"
     ],
     "z490asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF GAMING Z490-PLUS",
         "ddr4|TUF GAMING Z490-PLUS (WI-FI)",
         "ddr4|ROG MAXIMUS XIII APEX"
@@ -196,6 +205,7 @@
         "b560gigabyte|Gigabyte"
     ],
     "b560gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|B560M AORUS ELITE",
         "ddr4|B560 AORUS PRO AX",
         "ddr4|B560M AORUS PRO"
@@ -206,11 +216,13 @@
         "b460asus|ASUS"
     ],
     "b460gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|B460M AORUS ELITE",
         "ddr4|B460 AORUS PRO AC",
         "ddr4|B460 AORUS PRO"
     ],
     "b460asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF GAMING B460M-PRO",
         "ddr4|TUF GAMING B460M-PLUS(WI-FI)",
         "ddr4|TUF GAMING B460-PLUS",
@@ -223,10 +235,12 @@
         "h470asus|ASUS"
     ],
     "h470gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|H470 AORUS PRO AX",
         "ddr4|H470I AORUS PRO AX"
     ],
     "h470asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF GAMING H470-PRO",
         "ddr4|TUF GAMING H470-PRO (WI-FI)"
     ],
@@ -243,6 +257,7 @@
         "z390asus|ASUS"
     ],
     "z390gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|Z390 AORUS MASTER G2 Edition",
         "ddr4|Z390 AORUS XTREME WATERFORCE 5G",
         "ddr4|Z390 AORUS XTREME WATERFORCE",
@@ -260,6 +275,7 @@
         "ddr4|Z390 UD"
     ],
     "z390asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF Z390M-PRO GAMING (WI-FI)",
         "ddr4|TUF Z390M-PLUS GAMING (WI-FI)",
         "ddr4|TUF Z390-PRO GAMING",
@@ -273,6 +289,7 @@
         "z370asus|ASUS"
     ],
     "z370gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|Z370 AORUS GAMING 7",
         "ddr4|Z370 AORUS ULTRA GAMING 2.0",
         "ddr4|Z370 AORUS ULTRA GAMING WIFI",
@@ -283,6 +300,7 @@
         "ddr4|Z370 AORUS GAMING WIFI"
     ],
     "z370asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF Z370-PLUS GAMING",
         "ddr4|TUF Z370-PRO GAMING"
     ],
@@ -291,6 +309,7 @@
         "h370gigabyte|Gigabyte"
     ],
     "h370gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|H370 AORUS GAMING 3 WIFI",
         "ddr4|H370 AORUS GAMING 3"
     ],
@@ -304,6 +323,7 @@
         "ddr4|B360M H"
     ],
     "b360b365asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF B365-PLUS GAMING",
         "ddr4|TUF B365M-PLUS GAMING",
         "ddr4|TUF B360M-PLUS GAMING S",
@@ -321,6 +341,7 @@
         "x670gigabyte|Gigabyte"
     ],
     "x670gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr5|X670E AORUS XTREME",
         "ddr5|X670E AORUS MASTER",
         "ddr5|X670E AORUS ELITE AX"
@@ -339,6 +360,7 @@
         "x570asus|ASUS"
     ],
     "x570gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|X570 AORUS XTREME",
         "ddr4|X570S AORUS PRO AX",
         "ddr4|X570 AORUS MASTER",
@@ -350,6 +372,7 @@
         "ddr4|X570S AERO G"
     ],
     "x570asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF GAMING X570-PRO WIFI II",
         "ddr4|ProArt X570-CREATOR WIFI",
         "ddr4|ROG STRIX X570-E GAMING WIFI II",
@@ -360,6 +383,7 @@
         "x470gigabyte|Gigabyte"
     ],
     "x470gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|X470 AORUS GAMING 7 WIFI",
         "ddr4|X470 AORUS GAMING 5 WIFI",
         "ddr4|X470 AORUS ULTRA GAMING"
@@ -370,6 +394,7 @@
         "b550asus|ASUS"
     ],
     "b550gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|B550M AORUS PRO AX",
         "ddr4|B550 AORUS ELITE AX V2",
         "ddr4|B550I AORUS PRO AX",
@@ -383,6 +408,7 @@
         "ddr4|B550 VISION D"
     ],
     "b550asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|TUF GAMING B550-PLUS WIFI II",
         "ddr4|TUF GAMING B550M-PLUS WIFI II",
         "ddr4|PRIME B550M-A WIFI II-CSM",
@@ -397,6 +423,7 @@
         "b450gigabyte|Gigabyte"
     ],
     "b450gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|B450M DS3H V2",
         "ddr4|B450 AORUS Elite V2",
         "ddr4|B450M S2H V2"
@@ -407,12 +434,14 @@
         "a520asus|ASUS"
     ],
     "a520gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|A520I AC",
         "ddr4|A520M H",
         "ddr4|A520M S2H",
         "ddr4|A520M DS3H"
     ],
     "a520asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|Pro A520M-C II/CSM",
         "ddr4|PRIME A520M-A II/CSM",
         "ddr4|TUF GAMING A520M-PLUS II",
@@ -432,6 +461,7 @@
         "trx40asus|ASUS"
     ],
     "trx40gigabyte": [
+        "select motherboard|Select Motherboard",
         "ddr4|TRX40 AORUS MASTER",
         "ddr4|TRX40 AORUS XTREME",
         "ddr4|TRX40 DESIGNARE",
@@ -439,6 +469,7 @@
         "ddr4|TRX40 AORUS PRO WIFI"
     ],
     "trx40asus": [
+        "select motherboard|Select Motherboard",
         "ddr4|ROG Zenith II Extreme",
         "ddr4|ROG Strix TRX40-E Gaming",
         "ddr4|Prime TRX40-Pro"
@@ -452,6 +483,7 @@
         "wrx80msi|MSI"
     ],
     "wrx80msi":[
+        "select motherboard|Select Motherboard",
         "ddr4|WS WRX80"
     ]
 }
