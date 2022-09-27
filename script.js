@@ -17,6 +17,54 @@ function onClick(element) {
     captionText.innerHTML = element.alt;
 }
 
+// FAQ
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+        } else {
+            panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+    });
+}
+
+//Form submit
+window.addEventListener("load", function () {
+    const form = document.getElementById('bform');
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+            method: 'POST',
+            body: data,
+        })
+            .then(() => {
+                alert("Success!");
+            })
+    });
+});
+
+window.addEventListener("load", function () {
+    const form = document.getElementById('cform');
+    form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        const data = new FormData(form);
+        const action = e.target.action;
+        fetch(action, {
+            method: 'POST',
+            body: data,
+        })
+            .then(() => {
+                alert("Success!");
+            })
+    });
+});
 
 //Form selection
 function openForm(formName) {
@@ -29,59 +77,81 @@ function openForm(formName) {
 }
 
 //Form field cleaning
-function cleanField(s1, s2, s3, s4, s5, s6, s7, s8, s9) {
-    var s1 = document.getElementById(s1);
-    var s2 = document.getElementById(s2);
-    var s3 = document.getElementById(s3);
-    var s4 = document.getElementById(s4);
-    var s5 = document.getElementById(s5);
-    var s6 = document.getElementById(s6);
-    var s7 = document.getElementById(s7);
-    var s8 = document.getElementById(s8);
-    var s9 = document.getElementById(s9);
+function cleanField(c1, c2, c3, c4, c5, c6, c7, c8, c9) {
+    var c1 = document.getElementById(c1);
+    var c2 = document.getElementById(c2);
+    var c3 = document.getElementById(c3);
+    var c4 = document.getElementById(c4);
+    var c5 = document.getElementById(c5);
+    var c6 = document.getElementById(c6);
+    var c7 = document.getElementById(c7);
+    var c8 = document.getElementById(c8);
+    var c9 = document.getElementById(c9);
 
-    if (s1 != null) {
-        s1.innerHTML = "";
+    if (c1 != null) {
+        c1.innerHTML = "";
     }
-    if (s2 != null) {
-        s2.innerHTML = "";
+    if (c2 != null) {
+        c2.innerHTML = "";
     }
-    if (s3 != null) {
-        s3.innerHTML = "";
+    if (c3 != null) {
+        c3.innerHTML = "";
     }
-    if (s4 != null) {
-        s4.innerHTML = "";
+    if (c4 != null) {
+        c4.innerHTML = "";
     }
-    if (s5 != null) {
-        s5.innerHTML = "";
+    if (c5 != null) {
+        c5.innerHTML = "";
     }
-    if (s6 != null) {
-        s6.innerHTML = "";
+    if (c6 != null) {
+        c6.innerHTML = "";
     }
-    if (s7 != null) {
-        s7.innerHTML = "";
+    if (c7 != null) {
+        c7.innerHTML = "";
     }
-    if (s8 != null) {
-        s8.innerHTML = "";
+    if (c8 != null) {
+        c8.innerHTML = "";
     }
-    if (s9 != null) {
-        s9.innerHTML = "";
+    if (c9 != null) {
+        c9.innerHTML = "";
     }
 }
 
 
 // Interactive Form
-async function cpuSelection(s1, s2, s3, s4, s5, s6, s7, s8, s9) {
+async function cpuSelection(s1, s2, c1, c2, c3, c4, c5, c6) {
     var s1 = document.getElementById(s1);
     var s2 = document.getElementById(s2);
 
-    cleanField(s3, s4, s5, s6, s7, s8, s9);
+    cleanField(c1, c2, c3, c4, c5, c6);
     let request = new Request("./json/pcComponents.json");
     const responce = await fetch(request);
     const products = await responce.json();
 
     s2.innerHTML = "";
     var optionArray = products[s1.value];
+
+    for (var option in optionArray) {
+        var pair = optionArray[option].split("|");
+        var newOption = document.createElement("option");
+        newOption.value = pair[0];
+        newOption.innerHTML = pair[1];
+        s2.options.add(newOption);
+    }
+}
+
+async function cpuToMotherboard(s1, s2, s3) {
+    var s1 = document.getElementById(s1);
+    var s2 = document.getElementById(s2);
+
+    let request = new Request("./json/motherboardComponents.json");
+    const responce = await fetch(request);
+    const products = await responce.json();
+
+    s2.innerHTML = "";
+    var socket = products[s1.value];
+    motherboardToCooler(socket, s3);
+    var optionArray = products[socket];
 
     for (var option in optionArray) {
         var pair = optionArray[option].split("|");
@@ -112,9 +182,9 @@ async function motherboardSelection(s1, s2) {
     }
 }
 
-function socketcoolerSelection(s1, s2, s3) {
-    motherboardSelection(s1, s2);
-    coolerSelection(s1, s3);
+function socketcoolerSelection(s1, s2, s3, s4) {
+    cpuSelection(s1, s2)
+    cpuToMotherboard(s1, s3, s4);
 }
 
 async function ramSelection(s1, s2) {
@@ -127,6 +197,25 @@ async function ramSelection(s1, s2) {
 
     s2.innerHTML = "";
     var optionArray = products[s1.value];
+
+    for (var option in optionArray) {
+        var pair = optionArray[option].split("|");
+        var newOption = document.createElement("option");
+        newOption.value = pair[0];
+        newOption.innerHTML = pair[1];
+        s2.options.add(newOption);
+    }
+}
+
+async function motherboardToCooler(s1, s2) {
+    var s2 = document.getElementById(s2);
+
+    let request = new Request("./json/coolerComponents.json");
+    const responce = await fetch(request);
+    const products = await responce.json();
+
+    s2.innerHTML = "";
+    var optionArray = products[s1];
 
     for (var option in optionArray) {
         var pair = optionArray[option].split("|");

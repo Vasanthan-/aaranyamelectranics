@@ -13,15 +13,15 @@
     ],
     "nm500s": [
         "select psu|Select PSU",
-        "psu|Cooler Master MasterWatt Lite 500",
-        "psu|Cooler Master MWE 550 White 230V - V2",
-        "psu|Cooler Master MWE 500 White 230V - V2",
-        "psu|Cooler Master Elite 500 230V - V4",
-        "psu|Cooler Master Hyper White 500",
-        "psu|DeepCool DN550",
-        "psu|DeepCool DN500",
-        "psu|Thermaltake Smart RGB 500W (230V)",
-        "psu|Thermaltake Smart 500W"
+        "Cooler Master MasterWatt Lite 500|Cooler Master MasterWatt Lite 500",
+        "Cooler Master MWE 550 White 230V - V2|Cooler Master MWE 550 White 230V - V2",
+        "Cooler Master MWE 500 White 230V - V2|Cooler Master MWE 500 White 230V - V2",
+        "Cooler Master Elite 500 230V - V4|Cooler Master Elite 500 230V - V4",
+        "Cooler Master Hyper White 500|Cooler Master Hyper White 500",
+        "DeepCool DN550|DeepCool DN550",
+        "DeepCool DN500|DeepCool DN500",
+        "Thermaltake Smart RGB 500W (230V)|Thermaltake Smart RGB 500W (230V)",
+        "Thermaltake Smart 500W|Thermaltake Smart 500W"
     ],
     "nm50080b": [
         "select psu|Select PSU",

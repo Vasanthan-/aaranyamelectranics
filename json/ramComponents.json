@@ -54,30 +54,30 @@
     ],
     "8gbddr4gskill": [
         "select ram|Select Ram",
-        "ram|G.Skill Ripjaws DDR4-2400 8 GB CL 16",
-        "ram|G.Skill Ripjaws V DDR4-2400 8 GB CL 17",
-        "ram|G.Skill Ripjaws DDR4-2666 8 GB CL 18",
-        "ram|G.Skill Ripjaws V DDR4-2666 8 GB CL 19",
-        "ram|G.Skill Trident Z RGB DDR4-3000 8 GB CL 16",
-        "ram|G.Skill Ripjaws DDR4-3000 8 GB CL 16",
-        "ram|G.Skill Ripjaws V DDR4-3000 8 GB CL 16",
-        "ram|G.Skill Ripjaws DDR4-3200 8 GB CL 18",
-        "ram|G.Skill Ripjaws V DDR4-3600 8 GB CL 19",
-        "ram|G.Skill Sniper X DDR4-3600 8 GB CL 19",
-        "ram|G.Skill Trident Z Royal DDR4-4000 8 GB CL 15",
-        "ram|G.Skill Trident Z Royal Elite DDR4-4000 8 GB CL 14",
-        "ram|G.Skill Trident Z Royal Elite DDR4-4600 8 GB CL 20",
-        "ram|G.Skill Trident Z RGB DDR4-4600 8 GB CL 19",
-        "ram|G.Skill Ripjaws V DDR4-4600 8 GB CL 19",
-        "ram|G.Skill Trident Z Royal DDR4-4600 8 GB CL 19"
+        "G.Skill Ripjaws DDR4-2400 8 GB CL 16|G.Skill Ripjaws DDR4-2400 8 GB CL 16",
+        "G.Skill Ripjaws V DDR4-2400 8 GB CL 17|G.Skill Ripjaws V DDR4-2400 8 GB CL 17",
+        "G.Skill Ripjaws DDR4-2666 8 GB CL 18|G.Skill Ripjaws DDR4-2666 8 GB CL 18",
+        "G.Skill Ripjaws V DDR4-2666 8 GB CL 19|G.Skill Ripjaws V DDR4-2666 8 GB CL 19",
+        "G.Skill Trident Z RGB DDR4-3000 8 GB CL 16|G.Skill Trident Z RGB DDR4-3000 8 GB CL 16",
+        "G.Skill Ripjaws DDR4-3000 8 GB CL 16|G.Skill Ripjaws DDR4-3000 8 GB CL 16",
+        "G.Skill Ripjaws V DDR4-3000 8 GB CL 16|G.Skill Ripjaws V DDR4-3000 8 GB CL 16",
+        "G.Skill Ripjaws DDR4-3200 8 GB CL 18|G.Skill Ripjaws DDR4-3200 8 GB CL 18",
+        "G.Skill Ripjaws V DDR4-3600 8 GB CL 19|G.Skill Ripjaws V DDR4-3600 8 GB CL 19",
+        "G.Skill Sniper X DDR4-3600 8 GB CL 19|G.Skill Sniper X DDR4-3600 8 GB CL 19",
+        "G.Skill Trident Z Royal DDR4-4000 8 GB CL 15|G.Skill Trident Z Royal DDR4-4000 8 GB CL 15",
+        "G.Skill Trident Z Royal Elite DDR4-4000 8 GB CL 14|G.Skill Trident Z Royal Elite DDR4-4000 8 GB CL 14",
+        "G.Skill Trident Z Royal Elite DDR4-4600 8 GB CL 20|G.Skill Trident Z Royal Elite DDR4-4600 8 GB CL 20",
+        "G.Skill Trident Z RGB DDR4-4600 8 GB CL 19|G.Skill Trident Z RGB DDR4-4600 8 GB CL 19",
+        "G.Skill Ripjaws V DDR4-4600 8 GB CL 19|G.Skill Ripjaws V DDR4-4600 8 GB CL 19",
+        "G.Skill Trident Z Royal DDR4-4600 8 GB CL 19|G.Skill Trident Z Royal DDR4-4600 8 GB CL 19"
     ],
     "16gbddr4gskill": [
         "select ram|Select Ram",
-        "ram|G.Skill Ripjaws DDR4-2400 16 GB CL 16",
-        "ram|G.Skill Ripjaws DDR4-2666 16 GB CL 18",
-        "ram|G.Skill Ripjaws V DDR4-3000 16 GB CL 16",
-        "ram|G.Skill Ripjaws V DDR4-3000 16 GB CL 15",
-        "ram|G.Skill Ripjaws V DDR4-3200 16 GB CL 16",
+        "G.Skill Ripjaws DDR4-2400 16 GB CL 16|G.Skill Ripjaws DDR4-2400 16 GB CL 16",
+        "G.Skill Ripjaws DDR4-2666 16 GB CL 18|G.Skill Ripjaws DDR4-2666 16 GB CL 18",
+        "G.Skill Ripjaws V DDR4-3000 16 GB CL 16|G.Skill Ripjaws V DDR4-3000 16 GB CL 16",
+        "G.Skill Ripjaws V DDR4-3000 16 GB CL 15|G.Skill Ripjaws V DDR4-3000 16 GB CL 15",
+        "G.Skill Ripjaws V DDR4-3200 16 GB CL 16|G.Skill Ripjaws V DDR4-3200 16 GB CL 16",
         "ram|G.Skill Ripjaws DDR4-3200 16 GB CL 18",
         "ram|G.Skill Ripjaws V DDR4-3600 16 GB CL 19",
         "ram|G.Skill Sniper X DDR4-3600 16 GB CL 19",
@@ -245,8 +245,8 @@
     ],
     "32gbddr4crucial": [
         "select ram|Select Ram",
-        "ram|Crucial Ballistix DDR4-3600 32 GB CL 16",
-        "ram|Crucial Ballistix RGB DDR4-3600 32 GB CL 16"
+        "Crucial Ballistix DDR4-3600 32 GB CL 16|Crucial Ballistix DDR4-3600 32 GB CL 16",
+        "Crucial Ballistix RGB DDR4-3600 32 GB CL 16|Crucial Ballistix RGB DDR4-3600 32 GB CL 16"
     ],
     "16gbddr5gskill": [
         "select ram|Select Ram",
@@ -260,9 +260,9 @@
     ],
     "32gbddr5gskill": [
         "select ram|Select Ram",
-        "ripjaws32|Ripjaws S5 DDR5-5200 32 GB CL 28",
-        "ripjaws32|Ripjaws S5 DDR5-5600 32 GB CL 28",
-        "trident32|Trident Z5 RGB DDR5-6000 32 GB CL 32"
+        "Ripjaws S5 DDR5-5200 32 GB CL 28|Ripjaws S5 DDR5-5200 32 GB CL 28",
+        "Ripjaws S5 DDR5-5600 32 GB CL 28|Ripjaws S5 DDR5-5600 32 GB CL 28",
+        "Trident Z5 RGB DDR5-6000 32 GB CL 32|Trident Z5 RGB DDR5-6000 32 GB CL 32"
     ],
     "8gbddr5kingston": [
         "select ram|Select Ram",
@@ -275,25 +275,25 @@
     ],
     "16gbddr5kingston": [
         "select ram|Select Ram",
-        "fury16|Kingston FURY Beast DDR5-5200 16 GB CL 40",
-        "fury16|Kingston FURY Beast RGB DDR5-5200 16 GB CL 40"
+        "Kingston FURY Beast DDR5-5200 16 GB CL 40|Kingston FURY Beast DDR5-5200 16 GB CL 40",
+        "Kingston FURY Beast RGB DDR5-5200 16 GB CL 40|Kingston FURY Beast RGB DDR5-5200 16 GB CL 40"
     ],
     "32gbddr5kingston": [
         "select ram|Select Ram",
-        "fury32|Kingston FURY Beast RGB DDR5-5200 32 GB CL 40",
-        "fury32|Kingston FURY Beast DDR5-5600 32 GB CL 40",
-        "fury32|Kingston FURY Beast RGB DDR5-5600 32 GB CL 40"
+        "Kingston FURY Beast RGB DDR5-5200 32 GB CL 40|Kingston FURY Beast RGB DDR5-5200 32 GB CL 40",
+        "Kingston FURY Beast DDR5-5600 32 GB CL 40|Kingston FURY Beast DDR5-5600 32 GB CL 40",
+        "Kingston FURY Beast RGB DDR5-5600 32 GB CL 40|Kingston FURY Beast RGB DDR5-5600 32 GB CL 40"
     ],
     "8gbddr5corsair": [
         "select ram|Select Ram",
-        "ram|Corsair Vengeance RGB DDR5-6600 8 GB CL 32"
+        "Corsair Vengeance RGB DDR5-6600 8 GB CL 32|Corsair Vengeance RGB DDR5-6600 8 GB CL 32"
     ],
     "16gbddr5corsair": [
         "select ram|Select Ram",
-        "ram|Corsair Vengeance RGB DDR5-6600 16 GB CL 32",
-        "ram|Corsair Dominator Platinum RGB DDR5-6600 16 GB CL 32",
-        "ram|Corsair Dominator Platinum RGB DDR5-6400 16 GB CL 38",
-        "ram|Corsair Vengeance RGB DDR5-6400 16 GB CL 38",
+        "Corsair Vengeance RGB DDR5-6600 16 GB CL 32|Corsair Vengeance RGB DDR5-6600 16 GB CL 32",
+        "Corsair Dominator Platinum RGB DDR5-6600 16 GB CL 32|Corsair Dominator Platinum RGB DDR5-6600 16 GB CL 32",
+        "Corsair Dominator Platinum RGB DDR5-6400 16 GB CL 38|Corsair Dominator Platinum RGB DDR5-6400 16 GB CL 38",
+        "Corsair Vengeance RGB DDR5-6400 16 GB CL 38|Corsair Vengeance RGB DDR5-6400 16 GB CL 38",
         "ram|Corsair Dominator Platinum RGB DDR5-6200 16 GB CL 36",
         "ram|Corsair Vengeance RGB DDR5-6200 16 GB CL 36",
         "ram|Corsair Vengeance DDR5-6200 16 GB CL 36",

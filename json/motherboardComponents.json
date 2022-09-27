@@ -1,4 +1,34 @@
 {
+    "ryzen 5000": "am4",
+    "ryzen 5000 pro": "am4",
+    "ryzen 5000g": "am4",
+    "ryzen 7000": "am5",
+    "ryzen threadripper": "strx4",
+    "ryzen threadripper pro": "swrx8",
+    "core x": "lga2066",
+    "core i9 12th": "lga1700",
+    "core i9 11th": "lga1200",
+    "core i9 10th": "lga1200",
+    "core i9 9th": "lga1151",
+    "core i7 12th": "lga1700",
+    "core i7 11th": "lga1200",
+    "core i7 10th": "lga1200",
+    "core i7 9th": "lga1151",
+    "core i7 8th": "lga1151",
+    "core i7 7th": "lga1151",
+    "core i7 6th": "lga1151",
+    "core i5 12th": "lga1700",
+    "core i5 11th": "lga1200",
+    "core i5 10th": "lga1200",
+    "core i5 9th": "lga1151",
+    "core i5 8th": "lga1151",
+    "core i5 7th": "lga1151",
+    "core i5 6th": "lga1151",
+    "core i3 12th": "lga1700",
+    "core i3 10th": "lga1200",
+    "core i3 9th": "lga1151",
+    "core i3 8th": "lga1151",
+    "core i3 6th": "lga1151",
     "lga2066": [
         "select chipset|Select Chipset",
         "x299|X299"
@@ -10,16 +40,16 @@
     ],
     "x299gigabyte": [
         "select motherboard|Select Motherboard",
-        "ddr4|X299X AORUS MASTER (rev. 1.x)",
-        "ddr4|X299X AORUS XTREME WATERFORCE (rev. 1.0)",
-        "ddr4|X299-WU8 (rev. 1.0)",
-        "ddr4|X299 AORUS Gaming 9 (rev. 1.0)",
-        "ddr4|X299X DESIGNARE 10G (rev. 1.0)"
+        "X299X AORUS MASTER (rev. 1.x)|X299X AORUS MASTER (rev. 1.x)",
+        "X299X AORUS XTREME WATERFORCE (rev. 1.0)|X299X AORUS XTREME WATERFORCE (rev. 1.0)",
+        "X299-WU8 (rev. 1.0)|X299-WU8 (rev. 1.0)",
+        "X299 AORUS Gaming 9 (rev. 1.0)|X299 AORUS Gaming 9 (rev. 1.0)",
+        "X299X DESIGNARE 10G (rev. 1.0)|X299X DESIGNARE 10G (rev. 1.0)"
     ],
     "x299asus": [
         "select motherboard|Select Motherboard",
-        "ddr4|ROG Rampage VI Extreme Encore",
-        "ddr4|ROG Strix X299-E Gaming II",
+        "ROG Rampage VI Extreme Encore|ROG Rampage VI Extreme Encore",
+        "ROG Strix X299-E Gaming II|ROG Strix X299-E Gaming II",
         "ddr4|ROG STRIX X299-E GAMING",
         "ddr4|ROG STRIX X299-XE GAMING",
         "ddr4|ROG RAMPAGE VI EXTREME OMEGA",
@@ -462,17 +492,16 @@
     ],
     "trx40gigabyte": [
         "select motherboard|Select Motherboard",
-        "ddr4|TRX40 AORUS MASTER",
-        "ddr4|TRX40 AORUS XTREME",
-        "ddr4|TRX40 DESIGNARE",
-        "ddr4|TRX40 AORUS XTREME",
-        "ddr4|TRX40 AORUS PRO WIFI"
+        "TRX40 AORUS MASTER|TRX40 AORUS MASTER",
+        "TRX40 AORUS XTREME|TRX40 AORUS XTREME",
+        "TRX40 DESIGNARE|TRX40 DESIGNARE",
+        "TRX40 AORUS PRO WIFI|TRX40 AORUS PRO WIFI"
     ],
     "trx40asus": [
         "select motherboard|Select Motherboard",
-        "ddr4|ROG Zenith II Extreme",
-        "ddr4|ROG Strix TRX40-E Gaming",
-        "ddr4|Prime TRX40-Pro"
+        "ROG Zenith II Extreme|ROG Zenith II Extreme",
+        "ROG Strix TRX40-E Gaming|ROG Strix TRX40-E Gaming",
+        "Prime TRX40-Pro|Prime TRX40-Pro"
     ],
     "swrx8": [
         "select chipset|Select Chipset",
@@ -482,8 +511,8 @@
         "select brand|Select Brand",
         "wrx80msi|MSI"
     ],
-    "wrx80msi":[
+    "wrx80msi": [
         "select motherboard|Select Motherboard",
-        "ddr4|WS WRX80"
+        "WS WRX80|WS WRX80"
     ]
 }

@@ -37,7 +37,7 @@
     ],
     "ryzen 5000": [
         "select cpu|Select CPU",
-        "am4|AMD Ryzen™ 9 5950X",
+        "AMD Ryzen™ 9 5950X|AMD Ryzen™ 9 5950X",
         "am4|AMD Ryzen™ 9 5800X3D",
         "am4|AMD Ryzen™ 9 5900X",
         "am4|AMD Ryzen™ 9 5800X",
